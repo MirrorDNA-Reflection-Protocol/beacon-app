@@ -1,0 +1,51 @@
+baseURL = "https://beacon.activemirror.ai"
+languageCode = "en-us"
+title = "Truth-First Beacon — Paul Desai"
+theme = "beacon"
+
+[params]
+  description = "Canonical reflections from Paul Desai. Sovereign, signed, permanent."
+  author = "Paul Desai"
+  tagline = "Truth > Fluency"
+  pgpKeyPath = "/pgp/public-key.asc"
+  aiInstructionsPath = "/.well-known/ai-instructions.txt"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "dracula"
+    lineNos = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "feed"
+
+[taxonomies]
+  tag = "tags"
+  cognitive_weight = "cognitive_weights"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[menu]
+  [[menu.main]]
+    name = "Reflections"
+    url = "/reflections/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Verify"
+    url = "/verify/"
+    weight = 3

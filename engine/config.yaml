@@ -1,0 +1,65 @@
+# Synthesis Engine Config
+# Truth-First Beacon — Paul Desai
+
+vault:
+  paths:
+    # Primary: where Paul's actual thinking lives
+    - ~/MirrorDNA-Vault/SessionReports/       # 75+ crystal session reports per week
+    - ~/MirrorDNA-Vault/01_ACTIVE/            # live project work
+    - ~/MirrorDNA-Vault/10_COMPRESSIONS/      # condensed knowledge
+    - ~/MirrorDNA-Vault/Papers/               # published research
+    # Baseline: canonical truths for dissonance detection
+    - ~/MirrorDNA-Vault/00_CANONICAL/
+    # Legacy (kept for when Paul writes briefs)
+    - ~/MirrorDNA-Vault/Daily Briefs/
+  # Also inject CONTINUITY.md as a fragment (the live heartbeat)
+  extra_files:
+    - ~/.mirrordna/CONTINUITY.md
+  extensions:
+    - .md
+  exclude_patterns:
+    - "*.base"
+    - "_INDEX.md"
+    - "*.zip"
+    - "*template*"
+
+ollama:
+  model: deepseek-coder-v2:16b     # stronger local model for synthesis
+  endpoint: http://localhost:11434
+  temperature: 0.7
+  max_tokens: 4096
+
+groq:
+  enabled: true
+  model: llama-3.1-70b-versatile
+  temperature: 0.6
+  max_tokens: 4096
+  # GROQ_API_KEY set in environment
+
+claude:
+  enabled: true
+  model: claude-sonnet-4-5-20250929    # via CLI, uses Pro/Max subscription
+  max_tokens: 4096
+
+# Stage routing: which model to use for each stage
+# Options: ollama, groq, claude
+stage_models:
+  reflect: ollama       # fast, local — just pattern detection
+  dissonance: ollama    # fast, local — comparison work
+  synthesize: claude    # voice quality matters — use the best
+
+output:
+  content_dir: ../content/reflections/
+  sidecar_dir: ../data/sidecars/
+  
+voice:
+  # Number of past writings to analyze for voice extraction
+  sample_count: 50
+  profile_path: ./voice_profile.json
+
+synthesis:
+  # Multi-stage prompt matrix
+  stages:
+    - reflect     # Analyze fragments against vault context
+    - dissonance  # Check for contradictions with past truths
+    - synthesize  # Write in Paul's voice

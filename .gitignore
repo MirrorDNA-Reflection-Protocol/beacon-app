@@ -1,0 +1,13 @@
+# Truth-First Beacon
+public/
+resources/
+.hugo_build.lock
+node_modules/
+*.pyc
+__pycache__/
+.env
+engine/voice_profile.json
+deploy.log
+.last_pulse
+.DS_Store
+data/sidecars/*.json

@@ -1,0 +1,56 @@
+{{ define "main" }}
+<article class="post-single">
+    <header class="post-header">
+        <div class="post-meta">
+            <time class="post-date" datetime="{{ .Date.Format " 2006-01-02" }}">
+                {{ .Date.Format "2006 / 01 / 02" }}
+            </time>
+            {{ if .Params.signed }}
+            <span class="post-signed">⟡ SIGNED</span>
+            {{ end }}
+            {{ with .Params.sidecar }}
+            <a href="/data/sidecars/{{ . }}" class="sidecar-link">
+                ◈ Cognitive Sidecar
+            </a>
+            {{ end }}
+        </div>
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.tags }}
+        <div class="post-tags">
+            {{ range . }}
+            <span class="post-tag">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+    </header>
+
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+
+    <!-- Cognitive Weights -->
+    {{ with .Params.cognitive_weights }}
+    <div class="cognitive-weights">
+        <h4>◈ Cognitive Weight Map</h4>
+        {{ range $key, $value := . }}
+        <div class="weight-item">
+            <span class="weight-label">{{ $key }}</span>
+            <div class="weight-bar">
+                <div class="weight-fill" style="width: {{ printf " %.0f" (mul (float $value) 100.0) }}%"></div>
+            </div>
+            <span class="weight-value">{{ printf "%.2f" (float $value) }}</span>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- PGP Signature -->
+    {{ with .Params.pgp_signature }}
+    <div class="pgp-signature">
+        <span class="verified">✓ PGP Verified</span> ·
+        Signature: <code>{{ . }}</code> ·
+        <a href="{{ $.Site.Params.pgpKeyPath }}">Public Key</a>
+    </div>
+    {{ end }}
+</article>
+{{ end }}

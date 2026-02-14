@@ -1,0 +1,41 @@
+{{ define "main" }}
+<section class="hero">
+    <div class="hero-tagline">{{ .Site.Params.tagline }}</div>
+    <h1>Canonical reflections.<br><strong>Sovereign signal.</strong></h1>
+    <p class="hero-description">
+        These are the synthesized reflections of {{ .Site.Params.author }} —
+        written locally, signed cryptographically, pinned permanently.
+        No intermediary. No cloud. No drift.
+    </p>
+</section>
+
+<section class="post-list-section">
+    <ul class="post-list">
+        {{ range where .Site.RegularPages "Section" "reflections" }}
+        <li class="post-item">
+            <div class="post-meta">
+                <time class="post-date" datetime="{{ .Date.Format " 2006-01-02" }}">
+                    {{ .Date.Format "2006 / 01 / 02" }}
+                </time>
+                {{ if .Params.signed }}
+                <span class="post-signed">⟡ SIGNED</span>
+                {{ end }}
+            </div>
+            <h2 class="post-title">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+            {{ with .Summary }}
+            <p class="post-summary">{{ . }}</p>
+            {{ end }}
+            {{ with .Params.tags }}
+            <div class="post-tags">
+                {{ range . }}
+                <span class="post-tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</section>
+{{ end }}
