@@ -3,12 +3,6 @@
 
 export const SHOWCASE = [
   {
-    image: '/screenshots/dashboard-20260218.png',
-    title: 'Dashboard — Feb 18',
-    description: 'Today\'s cognitive dashboard capture.',
-    tags: ['Live', 'Dashboard'],
-  },
-  {
     image: '/screenshots/dashboard-tui.png',
     title: 'Cognitive Dashboard',
     description: 'Real-time TUI monitoring 24 services, drift score, bus health, cognitive weights, and factory status.',
@@ -33,26 +27,32 @@ export const SHOWCASE = [
     tags: ['Android', 'Kotlin'], portrait: true,
   },
   {
-    image: '/screenshots/desktop-feb14.png',
-    title: 'Workstation — Feb14',
-    description: 'Sovereign AI stack running on a Mac Mini.',
-    tags: ['Infrastructure'],
+    image: '/screenshots/dashboard-neurodivergent.png',
+    title: 'Neurodivergent Focus Mode',
+    description: 'Low-stimulation dashboard with single-task focus, ambient status, and cognitive load meter. Designed for ADHD/autism.',
+    tags: ['Dashboard', 'Accessibility'],
   },
   {
-    image: '/screenshots/desktop-feb16.png',
-    title: 'Workstation — Feb16',
-    description: 'Sovereign AI stack running on a Mac Mini.',
-    tags: ['Infrastructure'],
+    image: '/screenshots/dashboard-sysadmin.png',
+    title: 'Sysadmin Terminal',
+    description: 'Full-screen terminal dashboard — service grid, log tail, drift score, process map. Built for ops.',
+    tags: ['Dashboard', 'Terminal'],
+  },
+  {
+    image: '/screenshots/dashboard-enterprise.png',
+    title: 'Enterprise Command',
+    description: 'Multi-team dashboard with SLA tracking, governance compliance, role-based views. Enterprise-grade sovereign AI.',
+    tags: ['Dashboard', 'Enterprise'],
+  },
+  {
+    image: '/screenshots/dashboard-creative.png',
+    title: 'Creative Studio',
+    description: 'Visual dashboard with mood-responsive theming, project canvas, and inspiration feed. For builders and makers.',
+    tags: ['Dashboard', 'Creative'],
   },
 ];
 
 export const ARTICLES = [
-  {
-    slug: 'untitled-reflection',
-    title: 'Untitled Reflection',
-    date: '2026-02-18',
-    description: '**The model is interchangeable. The bus is identity.**  In the labyrinth',
-  },
   {
     slug: 'the-infrastructure-nobody-can-see',
     title: 'The Infrastructure Nobody Can See',
