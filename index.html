@@ -131,6 +131,13 @@
     }
     </script>
 
+    <!-- Force scroll to top — runs before React loads -->
+    <script>
+      if(history.scrollRestoration)history.scrollRestoration='manual';
+      if(location.hash)history.replaceState(null,'',location.pathname);
+      window.scrollTo(0,0);
+    </script>
+
     <link rel="canonical" href="https://beacon.activemirror.ai" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
