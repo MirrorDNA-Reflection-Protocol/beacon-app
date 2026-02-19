@@ -464,7 +464,13 @@ export default function App() {
   const [subbed, setSubbed] = useState(false);
 
   useEffect(() => { const t = setInterval(() => setTime(new Date()), 1000); return () => clearInterval(t); }, []);
-  useEffect(() => { window.scrollTo(0, 0); }, []);
+  useEffect(() => {
+    // Disable browser scroll restoration and force top
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    // Clear any hash that might cause auto-scroll
+    if (window.location.hash) history.replaceState(null, '', window.location.pathname);
+  }, []);
 
   const subscribe = async (e) => {
     e.preventDefault(); if (!email.trim()) return;
