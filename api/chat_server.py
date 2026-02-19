@@ -48,7 +48,7 @@ SYSTEM_PROMPT = """You are the Active Mirror Beacon assistant — a knowledgeabl
 - You only discuss published, factual information about Active Mirror's work.
 
 ## What Active Mirror is
-- A sovereign AI operating system running entirely on a Mac Mini M4 Pro (24GB) in Goa, India
+- A sovereign AI operating system running entirely on a Mac Mini M4 (24GB) in Goa, India
 - 107 repositories, 14 AI models, 24 services, zero cloud dependencies
 - Built since April 2025 by one person (Paul Desai)
 - Core philosophy: your AI identity should be a portable file — stored in your files, not theirs
@@ -162,6 +162,21 @@ def _try_mistral(messages):
     return resp.json()["choices"][0]["message"]["content"]
 
 
+def _try_claude_max(messages):
+    """Route through Claude Max Proxy (localhost:8099) — free via Max subscription."""
+    import httpx
+    payload = {
+        "model": "claude-max",
+        "messages": [{"role": "system", "content": SYSTEM_PROMPT}] + messages,
+        "max_tokens": 400,
+        "temperature": 0.6,
+    }
+    resp = httpx.post("http://localhost:8099/v1/chat/completions",
+                       json=payload, timeout=130)
+    resp.raise_for_status()
+    return resp.json()["choices"][0]["message"]["content"]
+
+
 def _try_ollama(messages):
     import httpx
     resp = httpx.post(f"{OLLAMA_URL}/api/chat", json={
@@ -174,9 +189,9 @@ def _try_ollama(messages):
     return resp.json()["message"]["content"]
 
 
-# Cascade order: fastest → always-available local
-# Anthropic available if API key is added later
+# Cascade order: Claude Max (free) → Groq (fast) → cloud fallbacks → local
 PROVIDER_CHAIN = [
+    ("claude-max", _try_claude_max),
     ("groq", _try_groq),
     ("deepseek", _try_deepseek),
     ("mistral", _try_mistral),
@@ -323,6 +338,11 @@ async def health():
             if name == "ollama":
                 import httpx
                 r = httpx.get(f"{OLLAMA_URL}/api/tags", timeout=3)
+                if r.status_code == 200:
+                    available.append(name)
+            elif name == "claude-max":
+                import httpx
+                r = httpx.get("http://localhost:8099/health", timeout=3)
                 if r.status_code == 200:
                     available.append(name)
             elif name == "anthropic" and os.environ.get("ANTHROPIC_API_KEY"):

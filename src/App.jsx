@@ -141,7 +141,7 @@ function Carousel({ items, onSelect }) {
         </button>
 
         {/* Slide counter */}
-        <div style={{ position: 'absolute', top: 16, right: 20, fontSize: 10, color: '#666', letterSpacing: 2 }}>
+        <div style={{ position: 'absolute', top: 16, right: 20, fontSize: 10, color: '#999', letterSpacing: 2 }}>
           {String(active + 1).padStart(2, '0')} / {String(count).padStart(2, '0')}
         </div>
       </div>
@@ -236,7 +236,7 @@ function ScanTerminal() {
     }
   };
 
-  const col = { s: '#f59e0b', c: '#22c55e', o: '#888', e: '#ef4444' };
+  const col = { s: '#f59e0b', c: '#22c55e', o: '#bbb', e: '#ef4444' };
 
   return (
     <div onClick={() => inputRef.current?.focus()}
@@ -245,7 +245,7 @@ function ScanTerminal() {
         <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#ff5f57' }} />
         <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#ffbd2e' }} />
         <span style={{ width: 10, height: 10, borderRadius: '50%', background: '#28c840' }} />
-        <span style={{ fontSize: 10, color: '#444', marginLeft: 8 }}>chetana://scanner</span>
+        <span style={{ fontSize: 10, color: '#777', marginLeft: 8 }}>chetana://scanner</span>
         <div style={{ flex: 1 }} />
         {scanning && <span style={{ fontSize: 10, color: '#f59e0b', animation: 'pglow 1s ease-in-out infinite' }}>scanning...</span>}
       </div>
@@ -339,7 +339,7 @@ function ChatWidget() {
               <span style={{ color: '#f59e0b', fontSize: 18 }}>&#9671;</span>
               <div>
                 <div style={{ fontSize: 13, fontWeight: 600, color: '#e0e0e0' }}>Active Mirror</div>
-                <div style={{ fontSize: 9, color: '#555', letterSpacing: 1 }}>SOVEREIGN AI KNOWLEDGE BASE</div>
+                <div style={{ fontSize: 9, color: '#888', letterSpacing: 1 }}>SOVEREIGN AI KNOWLEDGE BASE</div>
               </div>
               <div style={{ flex: 1 }} />
               <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#22c55e', boxShadow: '0 0 6px rgba(34,197,94,.5)' }} />
@@ -351,7 +351,7 @@ function ChatWidget() {
                 <div style={{ textAlign: 'center', padding: '40px 16px' }}>
                   <div style={{ color: '#f59e0b', fontSize: 28, marginBottom: 12 }}>&#9671;</div>
                   <p style={{ fontSize: 13, color: '#888', marginBottom: 8 }}>Ask me about Active Mirror</p>
-                  <p style={{ fontSize: 11, color: '#444', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: 11, color: '#777', lineHeight: 1.6 }}>
                     Sovereign AI infrastructure, Chetana scam detection, the memory bus, or any of Paul's published reflections.
                   </p>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginTop: 16, justifyContent: 'center' }}>
@@ -408,7 +408,7 @@ function ChatWidget() {
                   &#8593;
                 </button>
               </div>
-              <p style={{ fontSize: 9, color: '#333', marginTop: 8, textAlign: 'center' }}>
+              <p style={{ fontSize: 9, color: '#666', marginTop: 8, textAlign: 'center' }}>
                 Powered by sovereign AI infrastructure
               </p>
             </div>
@@ -447,9 +447,9 @@ function StickyNav() {
       <div style={{ display: 'flex', gap: 24 }}>
         {links.map(([id, label]) => (
           <a key={id} href={`#${id}`}
-            style={{ fontSize: 11, color: '#555', letterSpacing: 1, textTransform: 'uppercase', textDecoration: 'none', transition: 'color .3s' }}
+            style={{ fontSize: 11, color: '#999', letterSpacing: 1, textTransform: 'uppercase', textDecoration: 'none', transition: 'color .3s' }}
             onMouseOver={e => e.target.style.color = '#f59e0b'}
-            onMouseOut={e => e.target.style.color = '#555'}>{label}</a>
+            onMouseOut={e => e.target.style.color = '#999'}>{label}</a>
         ))}
       </div>
     </motion.nav>
@@ -515,10 +515,10 @@ export default function App() {
             <h1 style={{ fontSize: 'clamp(42px, 8vw, 80px)', fontWeight: 700, letterSpacing: -2, color: '#fff', lineHeight: 1 }}>Active Mirror</h1>
           </Reveal>
           <Reveal delay={.16}>
-            <p style={{ color: '#444', fontSize: 11, letterSpacing: 6, textTransform: 'uppercase', marginTop: 8 }}>Sovereign AI from Goa</p>
+            <p style={{ color: '#888', fontSize: 11, letterSpacing: 6, textTransform: 'uppercase', marginTop: 8 }}>Sovereign AI from Goa</p>
           </Reveal>
           <Reveal delay={.24}>
-            <p style={{ marginTop: 36, color: '#666', fontSize: 14, maxWidth: 400, lineHeight: 1.9, margin: '36px auto 0' }}>
+            <p style={{ marginTop: 36, color: '#aaa', fontSize: 15, maxWidth: 400, lineHeight: 1.9, margin: '36px auto 0' }}>
               One person. One Mac Mini. {durationText}.<br />An AI operating system that answers to nobody.
             </p>
           </Reveal>
@@ -527,16 +527,16 @@ export default function App() {
               {STATS.map(s => (
                 <div key={s.label} style={{ textAlign: 'center' }}>
                   <div className="text-gradient" style={{ fontSize: 28, fontWeight: 700 }}>{s.value}</div>
-                  <div style={{ fontSize: 9, color: '#555', marginTop: 4, textTransform: 'uppercase', letterSpacing: 2 }}>{s.label}</div>
+                  <div style={{ fontSize: 10, color: '#888', marginTop: 4, textTransform: 'uppercase', letterSpacing: 2 }}>{s.label}</div>
                 </div>
               ))}
             </div>
           </Reveal>
           <Reveal delay={.4}>
             <div style={{ marginTop: 56 }}>
-              <a href="#showcase" style={{ display: 'inline-block', border: '1px solid #222', padding: '10px 32px', fontSize: 11, color: '#666', letterSpacing: 2, textTransform: 'uppercase', transition: 'all .4s' }}
+              <a href="#showcase" style={{ display: 'inline-block', border: '1px solid #333', padding: '10px 32px', fontSize: 11, color: '#999', letterSpacing: 2, textTransform: 'uppercase', transition: 'all .4s' }}
                 onMouseOver={e => { e.target.style.borderColor = '#f59e0b'; e.target.style.color = '#f59e0b'; }}
-                onMouseOut={e => { e.target.style.borderColor = '#222'; e.target.style.color = '#666'; }}>
+                onMouseOut={e => { e.target.style.borderColor = '#333'; e.target.style.color = '#999'; }}>
                 explore ↓
               </a>
             </div>
@@ -550,8 +550,8 @@ export default function App() {
               <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 20 }}>
                 <p style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#f59e0b' }}>Latest</p>
                 <div style={{ flex: 1, height: 1, background: '#1a1a1a' }} />
-                <a href="#writing" style={{ fontSize: 10, color: '#444', letterSpacing: 1, textTransform: 'uppercase', textDecoration: 'none', transition: 'color .3s' }}
-                  onMouseOver={e => e.target.style.color = '#f59e0b'} onMouseOut={e => e.target.style.color = '#444'}>
+                <a href="#writing" style={{ fontSize: 10, color: '#777', letterSpacing: 1, textTransform: 'uppercase', textDecoration: 'none', transition: 'color .3s' }}
+                  onMouseOver={e => e.target.style.color = '#f59e0b'} onMouseOut={e => e.target.style.color = '#777'}>
                   all writing &rarr;
                 </a>
               </div>
@@ -563,7 +563,7 @@ export default function App() {
                     style={{ display: 'block', padding: 16, background: '#0a0a0a', border: '1px solid #161616', borderRadius: 12, textDecoration: 'none', transition: 'border-color .3s' }}
                     onMouseOver={e => e.currentTarget.style.borderColor = '#222'}
                     onMouseOut={e => e.currentTarget.style.borderColor = '#161616'}>
-                    <span style={{ fontSize: 10, color: '#444', fontVariantNumeric: 'tabular-nums' }}>{a.date}</span>
+                    <span style={{ fontSize: 10, color: '#777', fontVariantNumeric: 'tabular-nums' }}>{a.date}</span>
                     <p style={{ fontSize: 13, color: '#999', marginTop: 6, lineHeight: 1.5, transition: 'color .3s' }}>{a.title}</p>
                   </a>
                 </Reveal>
@@ -595,7 +595,7 @@ export default function App() {
             </Reveal>
             <Reveal delay={.05}>
               <h2 style={{ fontSize: 28, fontWeight: 300, color: '#ccc', marginBottom: 8 }}>Chetana — AI scam scanner.</h2>
-              <p style={{ fontSize: 12, color: '#555', marginBottom: 32, lineHeight: 1.7 }}>
+              <p style={{ fontSize: 13, color: '#888', marginBottom: 32, lineHeight: 1.7 }}>
                 Paste any suspicious message. 15 scam categories. On-device analysis. Try it live.
               </p>
             </Reveal>
@@ -613,7 +613,7 @@ export default function App() {
             </Reveal>
             <Reveal delay={.05}>
               <h2 style={{ fontSize: 28, fontWeight: 300, color: '#ccc', marginBottom: 12 }}>Reflections from the frontier.</h2>
-              <p style={{ fontSize: 11, color: '#444', marginBottom: 40 }}>PGP-signed · IPFS-pinned · Published daily</p>
+              <p style={{ fontSize: 11, color: '#777', marginBottom: 40 }}>PGP-signed · IPFS-pinned · Published daily</p>
             </Reveal>
             <div style={{ borderLeft: '1px solid #1a1a1a', paddingLeft: 24, marginLeft: 3 }}>
               {ARTICLES.map((a, i) => (
@@ -626,18 +626,18 @@ export default function App() {
                       e.currentTarget.querySelector('.tl-title').style.color = '#f59e0b';
                     }}
                     onMouseOut={e => {
-                      e.currentTarget.querySelector('.tl-dot').style.background = '#222';
+                      e.currentTarget.querySelector('.tl-dot').style.background = '#555';
                       e.currentTarget.querySelector('.tl-dot').style.boxShadow = 'none';
                       e.currentTarget.querySelector('.tl-title').style.color = '#999';
                     }}>
-                    <div className="tl-dot" style={{ position: 'absolute', left: -28, top: 20, width: 7, height: 7, borderRadius: '50%', background: '#222', transition: 'all .3s' }} />
+                    <div className="tl-dot" style={{ position: 'absolute', left: -28, top: 20, width: 7, height: 7, borderRadius: '50%', background: '#555', transition: 'all .3s' }} />
                     <div style={{ display: 'flex', alignItems: 'baseline', gap: 16 }}>
                       <span style={{ fontSize: 10, color: '#444', flexShrink: 0, width: 68, fontVariantNumeric: 'tabular-nums' }}>{a.date}</span>
                       <div style={{ flex: 1, minWidth: 0 }}>
                         <span className="tl-title" style={{ fontSize: 14, color: '#999', transition: 'color .3s' }}>{a.title}</span>
-                        <p style={{ fontSize: 11, color: '#444', marginTop: 3, lineHeight: 1.6 }} className="line-clamp-2">{a.description}</p>
+                        <p style={{ fontSize: 11, color: '#777', marginTop: 3, lineHeight: 1.6 }} className="line-clamp-2">{a.description}</p>
                       </div>
-                      <span style={{ color: '#333', fontSize: 14, flexShrink: 0 }}>&rarr;</span>
+                      <span style={{ color: '#666', fontSize: 14, flexShrink: 0 }}>&rarr;</span>
                     </div>
                   </a>
                 </Reveal>
@@ -659,7 +659,7 @@ export default function App() {
                     <span style={{ width: 7, height: 7, borderRadius: '50%', background: '#22c55e', boxShadow: '0 0 6px rgba(34,197,94,.5)' }} />
                     <span style={{ fontSize: 11, color: '#22c55e', letterSpacing: 1 }}>SOVEREIGN MESH ACTIVE</span>
                   </div>
-                  <span style={{ fontSize: 11, color: '#555', fontVariantNumeric: 'tabular-nums' }}>
+                  <span style={{ fontSize: 11, color: '#888', fontVariantNumeric: 'tabular-nums' }}>
                     {time.toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata', hour12: false })} IST
                   </span>
                 </div>
@@ -679,12 +679,12 @@ export default function App() {
                         <span style={{ width: 5, height: 5, borderRadius: '50%', background: s.on ? '#22c55e' : '#333' }} />
                         <span style={{ fontSize: 11, color: '#888' }}>{s.n}</span>
                       </div>
-                      <span style={{ fontSize: 10, color: s.on ? '#22c55e' : '#444' }}>{s.d}</span>
+                      <span style={{ fontSize: 10, color: s.on ? '#22c55e' : '#777' }}>{s.d}</span>
                     </div>
                   ))}
                 </div>
-                <div style={{ marginTop: 20, paddingTop: 14, borderTop: '1px solid #121212', fontSize: 10, color: '#444', display: 'flex', justifyContent: 'space-between' }}>
-                  <span>Goa, India · Mac Mini M4 Pro 24GB</span>
+                <div style={{ marginTop: 20, paddingTop: 14, borderTop: '1px solid #121212', fontSize: 10, color: '#777', display: 'flex', justifyContent: 'space-between' }}>
+                  <span>Goa, India · Mac Mini M4 24GB</span>
                   <span>Zero cloud dependencies</span>
                 </div>
               </div>
@@ -699,7 +699,7 @@ export default function App() {
               <div style={{ border: '1px solid #161616', borderRadius: 16, padding: 48, background: '#0a0a0a' }}>
                 <div style={{ color: '#f59e0b', fontSize: 28, marginBottom: 20, animation: 'pglow 3s ease-in-out infinite' }}>&#9671;</div>
                 <h3 style={{ fontSize: 18, fontWeight: 600, color: '#fff' }}>Dispatches from the frontier</h3>
-                <p style={{ fontSize: 12, color: '#555', marginTop: 12, lineHeight: 1.7 }}>New reflections and shipped modules. No spam, no tracking.</p>
+                <p style={{ fontSize: 12, color: '#888', marginTop: 12, lineHeight: 1.7 }}>New reflections and shipped modules. No spam, no tracking.</p>
                 {subbed ? (
                   <p style={{ marginTop: 28, color: '#22c55e', fontSize: 13 }}>You're in. &#9671;</p>
                 ) : (
@@ -719,7 +719,7 @@ export default function App() {
 
         {/* ═══ FOOTER ═══ */}
         <footer style={{ borderTop: '1px solid #111', padding: '40px 24px', textAlign: 'center' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: 24, fontSize: 12, color: '#444' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 24, fontSize: 12, color: '#777' }}>
             {[
               ['activemirror.ai', 'https://activemirror.ai'],
               ['chetana', 'https://chetana.activemirror.ai'],
@@ -729,13 +729,13 @@ export default function App() {
               <span key={label}>
                 {i > 0 && <span style={{ color: '#1a1a1a', marginRight: 24 }}>·</span>}
                 <a href={href} target="_blank" rel="noopener noreferrer"
-                  style={{ color: '#444', transition: 'color .3s' }}
+                  style={{ color: '#777', transition: 'color .3s' }}
                   onMouseOver={e => e.target.style.color = '#f59e0b'}
-                  onMouseOut={e => e.target.style.color = '#444'}>{label}</a>
+                  onMouseOut={e => e.target.style.color = '#777'}>{label}</a>
               </span>
             ))}
           </div>
-          <p style={{ fontSize: 10, color: '#333', marginTop: 20 }}>
+          <p style={{ fontSize: 10, color: '#666', marginTop: 20 }}>
             Built by Paul Desai · Goa · All data on-device · PGP-signed · IPFS-pinned
           </p>
         </footer>
