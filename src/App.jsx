@@ -464,6 +464,7 @@ export default function App() {
   const [subbed, setSubbed] = useState(false);
 
   useEffect(() => { const t = setInterval(() => setTime(new Date()), 1000); return () => clearInterval(t); }, []);
+  useEffect(() => { window.scrollTo(0, 0); }, []);
 
   const subscribe = async (e) => {
     e.preventDefault(); if (!email.trim()) return;
@@ -500,7 +501,7 @@ export default function App() {
       <div style={{ position: 'relative', zIndex: 1 }}>
 
         {/* ═══ HERO ═══ */}
-        <section style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '40px 24px' }}>
+        <section id="hero" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', padding: '40px 24px' }}>
           <Reveal>
             <div style={{ color: '#f59e0b', fontSize: 36, marginBottom: 24, animation: 'pglow 3s ease-in-out infinite' }}>&#9671;</div>
           </Reveal>
