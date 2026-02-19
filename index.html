@@ -131,11 +131,18 @@
     }
     </script>
 
-    <!-- Force scroll to top — runs before React loads -->
+    <!-- Force scroll to top — lock body scroll until page settles -->
     <script>
       if(history.scrollRestoration)history.scrollRestoration='manual';
       if(location.hash)history.replaceState(null,'',location.pathname);
+      document.documentElement.style.overflow='hidden';
       window.scrollTo(0,0);
+      window.addEventListener('load',function(){
+        setTimeout(function(){
+          window.scrollTo(0,0);
+          document.documentElement.style.overflow='';
+        },800);
+      });
     </script>
 
     <link rel="canonical" href="https://beacon.activemirror.ai" />
