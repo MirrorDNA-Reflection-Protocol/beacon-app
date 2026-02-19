@@ -189,7 +189,7 @@ function ScanTerminal() {
     "Your AI identity should be a portable file — stored in your files, not theirs.",
   ];
 
-  useEffect(() => { end.current?.scrollIntoView({ behavior: 'smooth' }); }, [lines]);
+  useEffect(() => { end.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }, [lines]);
 
   // Auto-demo on mount
   useEffect(() => {
