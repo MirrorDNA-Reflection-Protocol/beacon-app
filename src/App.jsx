@@ -69,6 +69,124 @@ function Bloom() {
   return <canvas ref={ref} style={{ position: 'fixed', inset: 0, pointerEvents: 'none', zIndex: 0 }} />;
 }
 
+/* ── EchoVeil — translucent flowing memory aura ── */
+function EchoVeil({ width = 320, height = 240 }) {
+  const ref = useRef(null);
+  useEffect(() => {
+    const c = ref.current; if (!c) return;
+    const ctx = c.getContext('2d');
+    c.width = width; c.height = height;
+    let t = 0, raf;
+    const layers = Array.from({ length: 5 }, (_, i) => ({
+      offset: Math.random() * 100,
+      speed: 0.003 + Math.random() * 0.004,
+      hue: 260 + i * 15, // orchid-monsoon palette
+      amp: 20 + Math.random() * 30,
+      y: height * (0.2 + i * 0.15),
+    }));
+    const draw = () => {
+      ctx.fillStyle = 'rgba(5,5,5,0.08)';
+      ctx.fillRect(0, 0, width, height);
+      for (const l of layers) {
+        ctx.beginPath();
+        ctx.moveTo(0, height);
+        for (let x = 0; x <= width; x += 3) {
+          const y = l.y + Math.sin((x + l.offset) * 0.015 + t * l.speed * 60) * l.amp
+            + Math.sin((x * 0.008) + t * l.speed * 30) * l.amp * 0.6;
+          ctx.lineTo(x, y);
+        }
+        ctx.lineTo(width, height);
+        ctx.closePath();
+        const g = ctx.createLinearGradient(0, l.y - l.amp, 0, l.y + l.amp);
+        g.addColorStop(0, `hsla(${l.hue},60%,50%,0)`);
+        g.addColorStop(0.5, `hsla(${l.hue},70%,55%,0.12)`);
+        g.addColorStop(1, `hsla(${l.hue},60%,40%,0)`);
+        ctx.fillStyle = g;
+        ctx.fill();
+      }
+      // floating memory orbs
+      for (let i = 0; i < 8; i++) {
+        const ox = (Math.sin(t * 0.01 + i * 2.1) * 0.5 + 0.5) * width;
+        const oy = (Math.cos(t * 0.008 + i * 1.7) * 0.5 + 0.5) * height;
+        const r = 2 + Math.sin(t * 0.02 + i) * 1.5;
+        ctx.beginPath(); ctx.arc(ox, oy, r, 0, 6.28);
+        ctx.fillStyle = `hsla(${275 + i * 8},80%,70%,${0.15 + Math.sin(t * 0.015 + i) * 0.1})`;
+        ctx.fill();
+      }
+      t++;
+      raf = requestAnimationFrame(draw);
+    };
+    draw();
+    return () => cancelAnimationFrame(raf);
+  }, [width, height]);
+  return <canvas ref={ref} style={{ width: '100%', height, borderRadius: 12, display: 'block' }} />;
+}
+
+/* ── ThreadSanctum — generative mandala temple ── */
+function Sanctum({ width = 320, height = 240 }) {
+  const ref = useRef(null);
+  useEffect(() => {
+    const c = ref.current; if (!c) return;
+    const ctx = c.getContext('2d');
+    c.width = width; c.height = height;
+    let t = 0, raf;
+    const cx = width / 2, cy = height / 2;
+    const petals = 12;
+    const rings = 5;
+    const draw = () => {
+      ctx.fillStyle = 'rgba(5,5,5,0.06)';
+      ctx.fillRect(0, 0, width, height);
+      // mandala rings
+      for (let r = 0; r < rings; r++) {
+        const radius = 25 + r * 28;
+        const count = petals + r * 4;
+        const breathe = Math.sin(t * 0.008 + r * 0.5) * 8;
+        for (let i = 0; i < count; i++) {
+          const angle = (i / count) * Math.PI * 2 + t * 0.002 * (r % 2 ? 1 : -1);
+          const px = cx + Math.cos(angle) * (radius + breathe);
+          const py = cy + Math.sin(angle) * (radius + breathe);
+          // petal shape
+          const size = 3 + Math.sin(t * 0.01 + i + r) * 1.5;
+          ctx.beginPath();
+          ctx.ellipse(px, py, size, size * 2.5, angle, 0, Math.PI * 2);
+          const hue = r % 2 === 0 ? 38 + r * 10 : 270 + r * 8; // gold + orchid
+          ctx.fillStyle = `hsla(${hue},70%,55%,${0.1 + Math.sin(t * 0.012 + i * 0.3) * 0.06})`;
+          ctx.fill();
+        }
+        // ring outline
+        ctx.beginPath();
+        ctx.arc(cx, cy, radius + breathe, 0, Math.PI * 2);
+        ctx.strokeStyle = `hsla(${45 + r * 20},50%,40%,${0.04 + r * 0.01})`;
+        ctx.lineWidth = 0.5;
+        ctx.stroke();
+      }
+      // center glow
+      const cg = ctx.createRadialGradient(cx, cy, 0, cx, cy, 20);
+      cg.addColorStop(0, `hsla(38,90%,60%,${0.15 + Math.sin(t * 0.01) * 0.05})`);
+      cg.addColorStop(1, 'hsla(38,90%,60%,0)');
+      ctx.beginPath(); ctx.arc(cx, cy, 20, 0, 6.28);
+      ctx.fillStyle = cg; ctx.fill();
+      // connecting threads between rings
+      for (let i = 0; i < petals; i++) {
+        const a = (i / petals) * Math.PI * 2 + t * 0.003;
+        const x1 = cx + Math.cos(a) * 25;
+        const y1 = cy + Math.sin(a) * 25;
+        const x2 = cx + Math.cos(a + Math.sin(t * 0.005) * 0.1) * (25 + (rings - 1) * 28);
+        const y2 = cy + Math.sin(a + Math.sin(t * 0.005) * 0.1) * (25 + (rings - 1) * 28);
+        ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2);
+        ctx.strokeStyle = `hsla(38,60%,50%,${0.03 + Math.sin(t * 0.01 + i) * 0.02})`;
+        ctx.lineWidth = 0.3;
+        ctx.stroke();
+      }
+      t++;
+      raf = requestAnimationFrame(draw);
+    };
+    draw();
+    return () => cancelAnimationFrame(raf);
+  }, [width, height]);
+  return <canvas ref={ref} style={{ width: '100%', height, borderRadius: 12, display: 'block' }} />;
+}
+
 /* ── Auto-rotating Carousel ── */
 function Carousel({ items, onSelect }) {
   const [active, setActive] = useState(0);
@@ -433,6 +551,7 @@ function StickyNav() {
     ['scanner', 'Scanner'],
     ['writing', 'Writing'],
     ['live', 'Live'],
+    ['living', 'Living'],
     ['subscribe', 'Subscribe'],
   ];
   return (
@@ -695,6 +814,70 @@ export default function App() {
                 </div>
               </div>
             </Reveal>
+          </div>
+        </section>
+
+        {/* ═══ LIVING SYSTEMS ═══ */}
+        <section id="living" style={{ paddingTop: 80, paddingBottom: 80 }}>
+          <div style={col}>
+            <Reveal>
+              <p style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#f59e0b', marginBottom: 8 }}>Living Systems</p>
+            </Reveal>
+            <Reveal delay={.05}>
+              <h2 style={{ fontSize: 28, fontWeight: 300, color: '#ccc', marginBottom: 8 }}>Sovereign soul layers.</h2>
+              <p style={{ fontSize: 13, color: '#888', marginBottom: 40, lineHeight: 1.7 }}>
+                Three generative visual systems that breathe with your data. On-device. Evolving nightly. Never predictive — always reflective.
+              </p>
+            </Reveal>
+
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 20 }}>
+              {/* AnimaBloom */}
+              <Reveal delay={.1}>
+                <div style={{ border: '1px solid #161616', borderRadius: 16, overflow: 'hidden', background: '#0a0a0a' }}>
+                  <div style={{ height: 200, position: 'relative', overflow: 'hidden', background: '#050505' }}>
+                    <canvas ref={useRef(null)} style={{ width: '100%', height: 200 }} />
+                    <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                      <div style={{ fontSize: 32, animation: 'pglow 3s ease-in-out infinite' }}>&#10047;</div>
+                    </div>
+                  </div>
+                  <div style={{ padding: 20 }}>
+                    <h3 style={{ fontSize: 15, fontWeight: 600, color: '#f59e0b', marginBottom: 6 }}>AnimaBloom</h3>
+                    <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                      Soul garden. A glowing seed that evolves into a digital orchid — petals grown from your daily reflections, voice rhythms, and creative patterns.
+                    </p>
+                    <div style={{ marginTop: 12, fontSize: 10, color: '#555', letterSpacing: 2, textTransform: 'uppercase' }}>Active on beacon</div>
+                  </div>
+                </div>
+              </Reveal>
+
+              {/* EchoVeil */}
+              <Reveal delay={.15}>
+                <div style={{ border: '1px solid #161616', borderRadius: 16, overflow: 'hidden', background: '#0a0a0a' }}>
+                  <EchoVeil width={400} height={200} />
+                  <div style={{ padding: 20 }}>
+                    <h3 style={{ fontSize: 15, fontWeight: 600, color: '#a78bfa', marginBottom: 6 }}>EchoVeil</h3>
+                    <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                      Memory aura. A translucent veil woven from drift curves, journal echoes, and emotional rhythms. Goa-monsoon palettes. Reflective, never predictive.
+                    </p>
+                    <div style={{ marginTop: 12, fontSize: 10, color: '#555', letterSpacing: 2, textTransform: 'uppercase' }}>Coming to MirrorBrain</div>
+                  </div>
+                </div>
+              </Reveal>
+
+              {/* ThreadSanctum */}
+              <Reveal delay={.2}>
+                <div style={{ border: '1px solid #161616', borderRadius: 16, overflow: 'hidden', background: '#0a0a0a' }}>
+                  <Sanctum width={400} height={200} />
+                  <div style={{ padding: 20 }}>
+                    <h3 style={{ fontSize: 15, fontWeight: 600, color: '#fbbf24', marginBottom: 6 }}>ThreadSanctum</h3>
+                    <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
+                      Inner temple. A generative mandala that grows from micro-reflections into navigable architecture — obsidian pillars, orchid chambers, crystalline bridges.
+                    </p>
+                    <div style={{ marginTop: 12, fontSize: 10, color: '#555', letterSpacing: 2, textTransform: 'uppercase' }}>Coming to MirrorBrain</div>
+                  </div>
+                </div>
+              </Reveal>
+            </div>
           </div>
         </section>
 
