@@ -1,22 +1,40 @@
 {
-  "generated": "2026-02-19T18:00:52.606483+05:30",
-  "brief": "**Intelligence Brief**\n\n**Threats:**\n1. **Regulatory risks**: Increasing calls for investment in open-source AI (e.g., Mozilla's message at the India AI Impact Summit) may lead to regulatory pressures on proprietary AI solutions, potentially disrupting sovereign AI operations.\n2. **Security vulnerabilities**: The deployment of LLM-based agents in secure agentic systems (arXiv:2602.16708v1) highlights the need for robust security measures to prevent potential threats.\n\n**Opportunities:**\n1. **Multi-agent systems**: Research on multi-agent cooperation (arXiv:2602.16301v1) and orchestration (arXiv:2602.16485v1) presents opportunities for developing more sophisticated sovereign AI systems.\n2. **On-device AI**: The development of efficient test-time scaling of agentic systems (arXiv:2602.16485v1) could enable more effective on-device AI capabilities.\n\n**Key Signals:**\n1. **Mozilla's call for open-source AI investment** (RSS): Highlights the growing importance of open-source AI and potential regulatory pressures on proprietary solutions.\n2. **Multi-agent cooperation research** (arXiv:2602.16301v1): Demonstrates the potential for more sophisticated sovereign AI systems through cooperative agent behaviors.\n3. **Policy Compiler for Secure Agentic Systems** (arXiv:2602.16708v1): Emphasizes the need for robust security measures in LLM-based agent deployments.\n\n**India Relevance:**\n1. **India AI Impact Summit**: Mozilla's participation and call for open-source AI investment may indicate a growing focus on sovereign AI and open-source solutions in India.\n2. **Potential for collaboration**: The summit presents opportunities for Active Mirror to engage with Indian AI stakeholders and explore collaborations.\n\n**Action Items:**\n1. **Monitor regulatory developments**: Track regulatory discussions and potential pressures on proprietary AI solutions.\n2. **Investigate multi-agent systems research**: Explore the applications and potential benefits of multi-agent cooperation and orchestration in sovereign AI systems.\n3. **Develop robust security measures**: Prioritize the development of secure agentic systems and policy compilers to mitigate potential security threats.\n4. **Engage with Indian AI stakeholders**: Leverage the India AI Impact Summit as an opportunity to establish connections and explore potential collaborations in the Indian AI ecosystem.",
+  "generated": "2026-02-20T18:00:57.231298+05:30",
+  "brief": "**Intelligence Brief**\n\n**Threats:**\n1. **Platform Lock-in**: The increasing dependence on large language models (LLMs) from diverse providers may lead to vendor lock-in, threatening sovereignty.\n2. **Security Risks**: LLM-based agents are being deployed in various applications, increasing the attack surface and potential security risks.\n3. **Regulatory Uncertainty**: The lack of clear regulations and standards for AI development and deployment may hinder innovation and adoption.\n\n**Opportunities:**\n1. **Multi-Agent Systems**: Research on task-adaptive multi-agent orchestration and agent competition-level code generation can enhance the capabilities of sovereign AI systems.\n2. **On-Device AI**: The development of execution-aware agentic learning and phase-aware mixture of experts can improve the efficiency and effectiveness of on-device AI applications.\n3. **Open-Source AI**: Investment in open-source AI can provide a path to sovereignty, as emphasized by Mozilla leaders.\n\n**Key Signals:**\n1. **AdaptOrch: Task-Adaptive Multi-Agent Orchestration** (arXiv:2602.16873v1) - This research can enhance the capabilities of sovereign AI systems by improving multi-agent collaboration.\n2. **Patch-to-PoC: A Systematic Study of Agentic LLM Systems** (arXiv:2602.07287v2) - This study highlights the potential security risks associated with LLM-based agents and the need for robust testing and validation.\n3. **Mozilla's Call for Open-Source AI Investment** (RSS) - This signal emphasizes the importance of open-source AI for achieving sovereignty and highlights the need for investment in this area.\n\n**India Relevance:**\n1. **India AI Impact Summit**: The summit provides a platform for discussing the impact of AI on various industries and sectors in India, with a focus on sovereignty and open-source AI.\n2. **Mozilla's Presence**: Mozilla's participation in the summit and their call for investment in open-source AI can help promote the development of sovereign AI capabilities in India.\n\n**Action Items:**\n1. **Monitor Multi-Agent System Research**: Track advancements in task-adaptive multi-agent orchestration and agent competition-level code generation to enhance sovereign AI capabilities.\n2. **Invest in Open-Source AI**: Allocate resources to develop and promote open-source AI solutions to achieve sovereignty and reduce dependence on proprietary technologies.\n3. **Develop Robust Testing and Validation Frameworks**: Create comprehensive testing and validation frameworks to ensure the security and reliability of LLM-based agents and sovereign AI systems.",
   "top_signals": [
     {
-      "title": "Multi-agent cooperation through in-context co-player inference",
-      "url": "https://arxiv.org/abs/2602.16301",
+      "title": "LLM4Cov: Execution-Aware Agentic Learning for High-coverage Testbench Generation",
+      "url": "https://arxiv.org/abs/2602.16953",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Team of Thoughts: Efficient Test-time Scaling of Agentic Systems through Orchestrated Tool Calling",
-      "url": "https://arxiv.org/abs/2602.16485",
+      "title": "Dynamic System Instructions and Tool Exposure for Efficient Agentic LLMs",
+      "url": "https://arxiv.org/abs/2602.17046",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Team of Thoughts: Efficient Test-time Scaling of Agentic Systems through Orchestrated Tool Calling",
-      "url": "https://arxiv.org/abs/2602.16485",
+      "title": "AdaptOrch: Task-Adaptive Multi-Agent Orchestration in the Era of LLM Performance Convergence",
+      "url": "https://arxiv.org/abs/2602.16873",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "LLM4Cov: Execution-Aware Agentic Learning for High-coverage Testbench Generation",
+      "url": "https://arxiv.org/abs/2602.16953",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "AdaptOrch: Task-Adaptive Multi-Agent Orchestration in the Era of LLM Performance Convergence",
+      "url": "https://arxiv.org/abs/2602.16873",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "Patch-to-PoC: A Systematic Study of Agentic LLM Systems for Linux Kernel N-Day Reproduction",
+      "url": "https://arxiv.org/abs/2602.07287",
       "source": "arxiv",
       "score": 1.0
     },
@@ -27,14 +45,8 @@
       "score": 1.0
     },
     {
-      "title": "Policy Compiler for Secure Agentic Systems",
-      "url": "https://arxiv.org/abs/2602.16708",
-      "source": "arxiv",
-      "score": 0.9
-    },
-    {
-      "title": "DIAGPaper: Diagnosing Valid and Specific Weaknesses in Scientific Papers via Multi-Agent Reasoning",
-      "url": "https://arxiv.org/abs/2601.07611",
+      "title": "Phase-Aware Mixture of Experts for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2602.17038",
       "source": "arxiv",
       "score": 0.9
     },
@@ -45,22 +57,10 @@
       "score": 0.9
     },
     {
-      "title": "Policy Compiler for Secure Agentic Systems",
-      "url": "https://arxiv.org/abs/2602.16708",
+      "title": "AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation",
+      "url": "https://arxiv.org/abs/2602.17100",
       "source": "arxiv",
       "score": 0.9
-    },
-    {
-      "title": "Optimization Instability in Autonomous Agentic Workflows for Clinical Symptom Detection",
-      "url": "https://arxiv.org/abs/2602.16037",
-      "source": "arxiv",
-      "score": 0.8
-    },
-    {
-      "title": "Causally-Guided Automated Feature Engineering with Multi-Agent Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2602.16435",
-      "source": "arxiv",
-      "score": 0.8
     }
   ]
 }
