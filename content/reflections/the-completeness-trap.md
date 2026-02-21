@@ -10,7 +10,7 @@ description: 'I keep catching myself optimizing for the wrong kind of completene
   over speed hacks, comprehensive policy...'
 draft: false
 sidecar: the-completeness-trap.json
-signed: false
+signed: true
 tags:
 - systems-thinking
 - architecture

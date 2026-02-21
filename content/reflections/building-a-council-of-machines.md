@@ -7,7 +7,7 @@ tags:
 - orchestration
 - governance
 - sovereign-infrastructure
-signed: false
+signed: true
 cognitive_weights:
   multi_agent_orchestration: 0.88
   governance_architecture: 0.82

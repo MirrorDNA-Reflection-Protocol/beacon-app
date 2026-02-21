@@ -7,7 +7,7 @@ tags:
 - visibility
 - sovereign-infrastructure
 - building-in-public
-signed: false
+signed: true
 cognitive_weights:
   visibility_vs_building: 0.88
   shipping_philosophy: 0.80

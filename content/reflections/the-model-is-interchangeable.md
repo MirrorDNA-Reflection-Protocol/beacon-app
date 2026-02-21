@@ -7,7 +7,7 @@ tags:
 - architecture
 - identity
 - ai-infrastructure
-signed: false
+signed: true
 cognitive_weights:
   sovereign_identity: 0.92
   model_independence: 0.85

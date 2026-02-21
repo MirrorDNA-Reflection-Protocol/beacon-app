@@ -7,7 +7,7 @@ tags:
 - infrastructure
 - resilience
 - autonomous-systems
-signed: false
+signed: true
 cognitive_weights:
   infrastructure_resilience: 0.90
   autonomous_remediation: 0.82
