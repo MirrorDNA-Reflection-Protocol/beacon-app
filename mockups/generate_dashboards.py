@@ -451,17 +451,264 @@ MOCKUPS = {
         </div>
         """,
     },
+    "dashboard-teams.png": {
+        "title": "Teams — Async Ops, Shared Context",
+        "html": """
+        <div class="scanlines" style="background:#030305;color:#e0e0e0;font-family:'JetBrains Mono',monospace;padding:0;width:1280px;height:800px;display:flex;flex-direction:column;gap:1px;background-color:#0a0a0a;position:relative">
+            <!-- Top bar -->
+            <div style="background:#050508;padding:10px 18px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #06b6d422">
+                <div style="display:flex;gap:16px;align-items:center">
+                    <span style="color:#06b6d4" class="glow-cyan">◇</span>
+                    <span style="font-size:11px;font-weight:600;color:#06b6d4" class="glow-cyan">TEAM MESH</span>
+                    <span style="font-size:9px;color:#06b6d444">│</span>
+                    <span style="font-size:9px;color:#22c55e" class="glow-green">● 5/6 ONLINE</span>
+                    <span style="font-size:9px;color:#06b6d444">│</span>
+                    <span style="font-size:9px;color:#555">DRIFT 2.3% · VELOCITY HIGH</span>
+                </div>
+                <div style="display:flex;gap:12px;font-size:9px;color:#444">
+                    <span style="color:#06b6d4" class="glow-cyan">Overview</span>
+                    <span>Standups</span><span>Context</span><span>Blockers</span><span>Decisions</span>
+                    <span style="margin-left:12px;color:#555">14:47 IST</span>
+                </div>
+            </div>
+            <!-- Body -->
+            <div style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#0a0a0a">
+                <!-- Left: Team presence -->
+                <div style="background:#030305;padding:18px;display:flex;flex-direction:column;gap:14px">
+                    <div style="font-size:9px;color:#06b6d4;letter-spacing:3px" class="glow-cyan">┌── PRESENCE ─────────────────────────────┐</div>
+                    <div style="display:flex;flex-direction:column;gap:10px">
+                        <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:#070709;border:1px solid #06b6d422;border-radius:8px">
+                            <span style="width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 8px #22c55e;flex-shrink:0"></span>
+                            <span style="font-size:11px;color:#e0e0e0;width:90px">priya</span>
+                            <span style="font-size:10px;color:#555;flex:1">Refactoring auth middleware</span>
+                            <span style="font-size:9px;color:#22c55e" class="glow-green">FLOW · 1.8h</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:#070709;border:1px solid #06b6d422;border-radius:8px">
+                            <span style="width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 8px #22c55e;flex-shrink:0"></span>
+                            <span style="font-size:11px;color:#e0e0e0;width:90px">arjun</span>
+                            <span style="font-size:10px;color:#555;flex:1">API gateway latency tests</span>
+                            <span style="font-size:9px;color:#22c55e" class="glow-green">FLOW · 0.4h</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:#070709;border:1px solid #f59e0b22;border-radius:8px">
+                            <span style="width:8px;height:8px;border-radius:50%;background:#f59e0b;box-shadow:0 0 8px #f59e0b;flex-shrink:0"></span>
+                            <span style="font-size:11px;color:#e0e0e0;width:90px">sam</span>
+                            <span style="font-size:10px;color:#f59e0b;flex:1">Blocked — needs design review</span>
+                            <span style="font-size:9px;color:#f59e0b" class="glow-amber">BLOCKED</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:#070709;border:1px solid #06b6d422;border-radius:8px">
+                            <span style="width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 8px #22c55e;flex-shrink:0"></span>
+                            <span style="font-size:11px;color:#e0e0e0;width:90px">mei</span>
+                            <span style="font-size:10px;color:#555;flex:1">Drafting compliance brief</span>
+                            <span style="font-size:9px;color:#06b6d4" class="glow-cyan">DEEP · 2.1h</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:#070709;border:1px solid #06b6d422;border-radius:8px">
+                            <span style="width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 8px #22c55e;flex-shrink:0"></span>
+                            <span style="font-size:11px;color:#e0e0e0;width:90px">ravi</span>
+                            <span style="font-size:10px;color:#555;flex:1">Deploying staging environment</span>
+                            <span style="font-size:9px;color:#22c55e" class="glow-green">ACTIVE</span>
+                        </div>
+                        <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:#070709;border:1px solid #1a1a1a;border-radius:8px">
+                            <span style="width:8px;height:8px;border-radius:50%;background:#222;flex-shrink:0"></span>
+                            <span style="font-size:11px;color:#333;width:90px">tom</span>
+                            <span style="font-size:10px;color:#222;flex:1">offline</span>
+                            <span style="font-size:9px;color:#222">OFFLINE</span>
+                        </div>
+                    </div>
+                    <div style="font-size:9px;color:#06b6d4;letter-spacing:3px" class="glow-cyan">└─────────────────────────────────────────┘</div>
+                    <!-- Shared context drift -->
+                    <div style="background:#070709;border:1px solid #06b6d422;border-radius:8px;padding:14px">
+                        <div style="font-size:9px;color:#555;letter-spacing:2px;margin-bottom:10px">CONTEXT DRIFT PER MEMBER</div>
+                        <div style="display:flex;flex-direction:column;gap:6px;font-size:10px">
+                            <div style="display:flex;align-items:center;gap:10px"><span style="width:50px;color:#666">priya</span><div style="flex:1;height:4px;background:#111;border-radius:2px"><div style="width:12%;height:100%;background:#22c55e;border-radius:2px"></div></div><span style="color:#22c55e;width:30px">1.2%</span></div>
+                            <div style="display:flex;align-items:center;gap:10px"><span style="width:50px;color:#666">arjun</span><div style="flex:1;height:4px;background:#111;border-radius:2px"><div style="width:22%;height:100%;background:#22c55e;border-radius:2px"></div></div><span style="color:#22c55e;width:30px">2.2%</span></div>
+                            <div style="display:flex;align-items:center;gap:10px"><span style="width:50px;color:#666">sam</span><div style="flex:1;height:4px;background:#111;border-radius:2px"><div style="width:58%;height:100%;background:#f59e0b;border-radius:2px"></div></div><span style="color:#f59e0b;width:30px">5.8%</span></div>
+                            <div style="display:flex;align-items:center;gap:10px"><span style="width:50px;color:#666">mei</span><div style="flex:1;height:4px;background:#111;border-radius:2px"><div style="width:9%;height:100%;background:#22c55e;border-radius:2px"></div></div><span style="color:#22c55e;width:30px">0.9%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right: Shared context + decisions -->
+                <div style="background:#030305;padding:18px;display:flex;flex-direction:column;gap:14px">
+                    <div style="font-size:9px;color:#06b6d4;letter-spacing:3px" class="glow-cyan">┌── SHARED CONTEXT ───────────────────────┐</div>
+                    <div style="background:#070709;border:1px solid #06b6d422;border-radius:8px;padding:14px;flex:1">
+                        <div style="font-size:9px;color:#555;margin-bottom:10px;letter-spacing:2px">LAST 24H DECISIONS</div>
+                        <div style="display:flex;flex-direction:column;gap:8px;font-size:10px">
+                            <div style="display:flex;gap:10px;align-items:baseline"><span style="color:#22c55e;width:50px" class="glow-green">SHIPPED</span><span style="color:#666">priya · auth v2 merged to main</span><span style="margin-left:auto;color:#333">2h</span></div>
+                            <div style="display:flex;gap:10px;align-items:baseline"><span style="color:#f59e0b;width:50px" class="glow-amber">BLOCKED</span><span style="color:#666">sam · design review needed on onboarding</span><span style="margin-left:auto;color:#333">3h</span></div>
+                            <div style="display:flex;gap:10px;align-items:baseline"><span style="color:#22c55e;width:50px" class="glow-green">SHIPPED</span><span style="color:#666">ravi · staging env deployed, tests green</span><span style="margin-left:auto;color:#333">4h</span></div>
+                            <div style="display:flex;gap:10px;align-items:baseline"><span style="color:#06b6d4;width:50px" class="glow-cyan">CONTEXT</span><span style="color:#666">mei · compliance brief draft ready for review</span><span style="margin-left:auto;color:#333">5h</span></div>
+                            <div style="display:flex;gap:10px;align-items:baseline"><span style="color:#06b6d4;width:50px" class="glow-cyan">CONTEXT</span><span style="color:#666">arjun · p95 latency 180ms → target 120ms</span><span style="margin-left:auto;color:#333">6h</span></div>
+                        </div>
+                    </div>
+                    <div style="font-size:9px;color:#06b6d4;letter-spacing:3px" class="glow-cyan">┌── BLOCKERS ─────────────────────────────┐</div>
+                    <div style="background:#070709;border:1px solid #f59e0b22;border-radius:8px;padding:14px">
+                        <div style="display:flex;flex-direction:column;gap:8px;font-size:10px">
+                            <div style="display:flex;gap:10px;align-items:baseline">
+                                <span style="color:#f59e0b" class="glow-amber">▸</span>
+                                <span style="color:#888">sam needs design sign-off on onboarding modal</span>
+                                <span style="margin-left:auto;color:#f59e0b;font-size:9px">URGENT</span>
+                            </div>
+                            <div style="display:flex;gap:10px;align-items:baseline">
+                                <span style="color:#333">▸</span>
+                                <span style="color:#555">arjun blocked on gateway creds (infra)</span>
+                                <span style="margin-left:auto;color:#444;font-size:9px">LOW</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background:#070709;border:1px solid #06b6d422;border-radius:8px;padding:14px">
+                        <div style="font-size:9px;color:#555;margin-bottom:10px;letter-spacing:2px">VELOCITY THIS WEEK</div>
+                        <div style="display:flex;gap:6px;align-items:flex-end;height:50px">
+                            <div style="flex:1;background:#06b6d4;border-radius:2px 2px 0 0;height:40%;opacity:0.6"></div>
+                            <div style="flex:1;background:#06b6d4;border-radius:2px 2px 0 0;height:65%;opacity:0.7"></div>
+                            <div style="flex:1;background:#06b6d4;border-radius:2px 2px 0 0;height:50%;opacity:0.7"></div>
+                            <div style="flex:1;background:#06b6d4;border-radius:2px 2px 0 0;height:80%;opacity:0.8"></div>
+                            <div style="flex:1;background:#22c55e;border-radius:2px 2px 0 0;height:95%;box-shadow:0 0 8px rgba(34,197,94,0.3)"></div>
+                        </div>
+                        <div style="display:flex;gap:6px;font-size:8px;color:#333;margin-top:4px">
+                            <div style="flex:1;text-align:center">M</div><div style="flex:1;text-align:center">T</div><div style="flex:1;text-align:center">W</div><div style="flex:1;text-align:center">T</div><div style="flex:1;text-align:center;color:#22c55e">F</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="background:#050508;padding:6px 18px;font-size:8px;color:#1a1a1a;letter-spacing:3px;text-align:center">◇ ACTIVE MIRROR · TEAM MESH · ASYNC-FIRST · SOVEREIGN COLLABORATION ◇</div>
+        </div>
+        """,
+    },
+    "dashboard-founder.png": {
+        "title": "Solo Founder — Revenue, Runway, Focus",
+        "html": """
+        <div class="scanlines" style="background:#03010a;color:#e0e0e0;font-family:'JetBrains Mono',monospace;padding:0;width:1280px;height:800px;display:flex;flex-direction:column;position:relative">
+            <!-- Top bar -->
+            <div style="background:#060309;padding:10px 18px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ec489922">
+                <div style="display:flex;gap:16px;align-items:center">
+                    <span style="color:#ec4899" class="glow-magenta">◇</span>
+                    <span style="font-size:11px;font-weight:600;color:#ec4899" class="glow-magenta">FOUNDER OS</span>
+                    <span style="font-size:9px;color:#ec489944">│</span>
+                    <span style="font-size:9px;color:#22c55e" class="glow-green">● BUILDING</span>
+                    <span style="font-size:9px;color:#ec489944">│</span>
+                    <span style="font-size:9px;color:#555">DAY 294 · STREAK 12</span>
+                </div>
+                <div style="display:flex;gap:16px;font-size:9px;color:#444">
+                    <span style="color:#ec4899" class="glow-magenta">Today</span>
+                    <span>Revenue</span><span>Runway</span><span>Pipeline</span>
+                    <span style="margin-left:12px;color:#555">09:14 IST</span>
+                </div>
+            </div>
+            <!-- Body -->
+            <div style="flex:1;display:grid;grid-template-columns:2fr 1fr;gap:1px;background:#0a0a0a">
+                <!-- Left -->
+                <div style="background:#04020a;padding:20px;display:flex;flex-direction:column;gap:16px">
+                    <!-- Today's one thing -->
+                    <div class="border-glow-magenta" style="background:#07040f;border:1px solid #ec489933;border-radius:12px;padding:24px">
+                        <div style="font-size:9px;color:#ec4899;letter-spacing:4px;margin-bottom:12px" class="glow-magenta">┌── TODAY'S ONE THING ──────────────────────┐</div>
+                        <div style="font-size:22px;font-weight:300;color:#fff;line-height:1.5;padding-left:14px;border-left:2px solid #ec4899">Ship the onboarding flow.<br/>Everything else is noise.</div>
+                        <div style="font-size:9px;color:#ec4899;letter-spacing:4px;margin-top:12px" class="glow-magenta">└──────────────────────────────────────────┘</div>
+                        <div style="margin-top:16px;display:flex;gap:12px">
+                            <div style="background:#0a0a0f;border:1px solid #1a1a1a;border-radius:8px;padding:12px 18px;text-align:center">
+                                <div style="font-size:24px;font-weight:700;color:#ec4899" class="glow-magenta">3.2h</div>
+                                <div style="font-size:8px;color:#444;text-transform:uppercase;letter-spacing:2px;margin-top:4px">deep work today</div>
+                            </div>
+                            <div style="background:#0a0a0f;border:1px solid #1a1a1a;border-radius:8px;padding:12px 18px;text-align:center">
+                                <div style="font-size:24px;font-weight:700;color:#22c55e" class="glow-green">0.8%</div>
+                                <div style="font-size:8px;color:#444;text-transform:uppercase;letter-spacing:2px;margin-top:4px">drift</div>
+                            </div>
+                            <div style="background:#0a0a0f;border:1px solid #1a1a1a;border-radius:8px;padding:12px 18px;text-align:center">
+                                <div style="font-size:24px;font-weight:700;color:#f59e0b" class="glow-amber">HIGH</div>
+                                <div style="font-size:8px;color:#444;text-transform:uppercase;letter-spacing:2px;margin-top:4px">momentum</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Key metrics -->
+                    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px">
+                        <div style="background:#07040f;border:1px solid #ec489922;border-radius:10px;padding:16px">
+                            <div style="font-size:9px;color:#555;letter-spacing:2px;margin-bottom:8px">MRR</div>
+                            <div style="font-size:28px;font-weight:700;color:#22c55e" class="glow-green">$4.2k</div>
+                            <div style="font-size:9px;color:#22c55e;margin-top:4px">↑ +$800 this month</div>
+                        </div>
+                        <div style="background:#07040f;border:1px solid #ec489922;border-radius:10px;padding:16px">
+                            <div style="font-size:9px;color:#555;letter-spacing:2px;margin-bottom:8px">RUNWAY</div>
+                            <div style="font-size:28px;font-weight:700;color:#f59e0b" class="glow-amber">14mo</div>
+                            <div style="font-size:9px;color:#555;margin-top:4px">burn $3.1k/mo</div>
+                        </div>
+                        <div style="background:#07040f;border:1px solid #ec489922;border-radius:10px;padding:16px">
+                            <div style="font-size:9px;color:#555;letter-spacing:2px;margin-bottom:8px">PIPELINE</div>
+                            <div style="font-size:28px;font-weight:700;color:#06b6d4" class="glow-cyan">$28k</div>
+                            <div style="font-size:9px;color:#555;margin-top:4px">6 prospects active</div>
+                        </div>
+                    </div>
+                    <!-- Revenue sparkline -->
+                    <div style="background:#07040f;border:1px solid #ec489922;border-radius:10px;padding:16px">
+                        <div style="font-size:9px;color:#555;letter-spacing:2px;margin-bottom:12px">MRR TRAJECTORY · 6 MONTHS</div>
+                        <div style="display:flex;gap:4px;align-items:flex-end;height:60px">
+                            <div style="flex:1;background:#ec489933;border-radius:2px 2px 0 0;height:30%"></div>
+                            <div style="flex:1;background:#ec489944;border-radius:2px 2px 0 0;height:40%"></div>
+                            <div style="flex:1;background:#ec489955;border-radius:2px 2px 0 0;height:52%"></div>
+                            <div style="flex:1;background:#ec489966;border-radius:2px 2px 0 0;height:63%"></div>
+                            <div style="flex:1;background:#ec489977;border-radius:2px 2px 0 0;height:78%"></div>
+                            <div style="flex:1;background:#ec4899;border-radius:2px 2px 0 0;height:100%;box-shadow:0 0 12px rgba(236,72,153,0.4)"></div>
+                        </div>
+                        <div style="display:flex;gap:4px;font-size:8px;color:#333;margin-top:4px">
+                            <div style="flex:1;text-align:center">Sep</div><div style="flex:1;text-align:center">Oct</div><div style="flex:1;text-align:center">Nov</div><div style="flex:1;text-align:center">Dec</div><div style="flex:1;text-align:center">Jan</div><div style="flex:1;text-align:center;color:#ec4899">Feb</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right sidebar -->
+                <div style="background:#04020a;padding:18px;display:flex;flex-direction:column;gap:14px">
+                    <div style="font-size:9px;color:#ec4899;letter-spacing:3px" class="glow-magenta">┌── PIPELINE ─────────────┐</div>
+                    <div style="display:flex;flex-direction:column;gap:8px;font-size:10px">
+                        <div style="padding:10px 12px;background:#07040f;border:1px solid #22c55e33;border-radius:8px">
+                            <div style="color:#22c55e;font-size:9px" class="glow-green">CLOSING · $8k</div>
+                            <div style="color:#888;margin-top:3px">Acme Corp — contract sent</div>
+                        </div>
+                        <div style="padding:10px 12px;background:#07040f;border:1px solid #06b6d422;border-radius:8px">
+                            <div style="color:#06b6d4;font-size:9px" class="glow-cyan">DEMO · $5k</div>
+                            <div style="color:#888;margin-top:3px">Bright Labs — call Thu</div>
+                        </div>
+                        <div style="padding:10px 12px;background:#07040f;border:1px solid #ec489922;border-radius:8px">
+                            <div style="color:#ec4899;font-size:9px" class="glow-magenta">NURTURE · $15k</div>
+                            <div style="color:#888;margin-top:3px">4 prospects in sequence</div>
+                        </div>
+                    </div>
+                    <div style="font-size:9px;color:#ec4899;letter-spacing:3px" class="glow-magenta">┌── ENERGY ───────────────┐</div>
+                    <div style="background:#07040f;border:1px solid #ec489922;border-radius:8px;padding:14px">
+                        <div style="font-size:9px;color:#555;margin-bottom:10px">TODAY'S CAPACITY</div>
+                        <div style="display:flex;gap:3px;margin-bottom:6px">
+                            <div style="flex:1;height:10px;background:#ec4899;border-radius:2px;box-shadow:0 0 6px rgba(236,72,153,0.3)"></div>
+                            <div style="flex:1;height:10px;background:#ec4899;border-radius:2px;box-shadow:0 0 6px rgba(236,72,153,0.3)"></div>
+                            <div style="flex:1;height:10px;background:#ec4899;border-radius:2px;box-shadow:0 0 6px rgba(236,72,153,0.3)"></div>
+                            <div style="flex:1;height:10px;background:#ec4899;border-radius:2px;box-shadow:0 0 6px rgba(236,72,153,0.3)"></div>
+                            <div style="flex:1;height:10px;background:#111;border:1px solid #1a1a1a;border-radius:2px"></div>
+                        </div>
+                        <div style="font-size:9px;color:#ec4899" class="glow-magenta">FULL · SHIP SOMETHING</div>
+                    </div>
+                    <div style="background:#07040f;border:1px solid #ec489922;border-radius:8px;padding:14px;flex:1">
+                        <div style="font-size:9px;color:#555;margin-bottom:10px;letter-spacing:2px">RECENT SHIPS</div>
+                        <div style="display:flex;flex-direction:column;gap:6px;font-size:9px;color:#555">
+                            <div>✓ Landing page v3</div>
+                            <div>✓ Payment integration</div>
+                            <div>✓ Email sequences</div>
+                            <div>✓ Analytics dashboard</div>
+                            <div style="color:#333">○ Onboarding flow</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="background:#060309;padding:6px 18px;font-size:8px;color:#1a1a1a;letter-spacing:3px;text-align:center">◇ ACTIVE MIRROR · FOUNDER OS · REVENUE-FIRST · SOVEREIGN MOMENTUM ◇</div>
+        </div>
+        """,
+    },
 }
 
 
-async def render_mockups():
+async def render_mockups(targets=None):
     from playwright.async_api import async_playwright
+
+    to_render = {k: v for k, v in MOCKUPS.items() if targets is None or any(t in k for t in targets)}
 
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page(viewport={"width": 1280, "height": 800})
 
-        for filename, mockup in MOCKUPS.items():
+        for filename, mockup in to_render.items():
             html = f"""<!DOCTYPE html>
             <html><head>
             <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -475,8 +722,13 @@ async def render_mockups():
             print(f"Rendered: {output} ({output.stat().st_size // 1024}KB)")
 
         await browser.close()
-    print("Done — all mockups rendered.")
+    print(f"Done — {len(to_render)} mockup(s) rendered.")
 
 
 if __name__ == "__main__":
-    asyncio.run(render_mockups())
+    import sys
+    targets = sys.argv[1:] if len(sys.argv) > 1 else None
+    if targets is None:
+        print(f"Available: {', '.join(k.replace('.png','') for k in MOCKUPS)}")
+        print("Rendering all...")
+    asyncio.run(render_mockups(targets))
