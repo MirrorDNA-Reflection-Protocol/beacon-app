@@ -6,6 +6,13 @@ const BEACON = 'https://beacon.activemirror.ai/reflections';
 const CHETANA = 'https://chetana.activemirror.ai';
 const CHAT_API = import.meta.env.DEV ? 'http://localhost:8095' : 'https://beacon.activemirror.ai';
 
+/* ── Dynamic build duration (start: May 2025) ── */
+const BUILD_START = new Date('2025-05-01');
+const _buildMonths = Math.floor((new Date() - BUILD_START) / (1000 * 60 * 60 * 24 * 30.44));
+export const BUILD_DURATION = _buildMonths >= 12
+  ? `${Math.floor(_buildMonths / 12)}+ year${Math.floor(_buildMonths / 12) > 1 ? 's' : ''}`
+  : `${_buildMonths} months`;
+
 /* ── fade-in on scroll ── */
 function Reveal({ children, delay = 0, style = {} }) {
   const ref = useRef(null);
@@ -327,7 +334,7 @@ function ScanTerminal() {
   const run = async (cmd) => {
     const c = cmd.trim().toLowerCase(); add(`$ ${cmd}`, 'c'); if (!c) return;
     if (c === 'help') add('  help | about | scan <msg> | reflect | stats | clear');
-    else if (c === 'about') add('  Paul Desai · Goa · 10mo sovereign AI · 1 Mac Mini · 0 cloud deps');
+    else if (c === 'about') add(`  Paul Desai · Goa · ${BUILD_DURATION} sovereign AI · 1 Mac Mini · 0 cloud deps`);
     else if (c === 'stats') STATS.forEach(s => add(`  ${s.label.padEnd(16)} ${s.value}`));
     else if (c === 'reflect') add(`  "${quotes[Math.floor(Math.random() * quotes.length)]}"`);
     else if (c === 'clear') { setLines([{ t: 's', x: '> cleared' }]); return; }
@@ -611,11 +618,7 @@ export default function App() {
   const col = { maxWidth: 760, margin: '0 auto', padding: '0 24px' };
   const latestArticles = ARTICLES.slice(0, 3);
 
-  // Dynamic duration since project start (April 2025)
-  const startDate = new Date('2025-04-01');
-  const now = new Date();
-  const months = Math.floor((now - startDate) / (1000 * 60 * 60 * 24 * 30.44));
-  const durationText = months >= 12 ? `${Math.floor(months / 12)}+ year${Math.floor(months / 12) > 1 ? 's' : ''}` : `${months} months`;
+  const durationText = BUILD_DURATION;
 
   return (
     <div style={{ minHeight: '100vh', background: '#050505', color: '#e0e0e0', position: 'relative', overflowX: 'hidden' }}>
