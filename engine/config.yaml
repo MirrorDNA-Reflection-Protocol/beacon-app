@@ -24,14 +24,14 @@ vault:
     - "*template*"
 
 ollama:
-  model: deepseek-coder-v2:16b     # stronger local model for synthesis
+  model: qwen2.5:7b     # deepseek-coder-v2:16b not installed; qwen2.5:7b available locally
   endpoint: http://localhost:11434
   temperature: 0.7
   max_tokens: 4096
 
 groq:
   enabled: true
-  model: llama-3.1-70b-versatile
+  model: llama-3.3-70b-versatile
   temperature: 0.6
   max_tokens: 4096
   # GROQ_API_KEY set in environment
@@ -46,7 +46,7 @@ claude:
 stage_models:
   reflect: ollama       # fast, local — just pattern detection
   dissonance: ollama    # fast, local — comparison work
-  synthesize: claude    # voice quality matters — use the best
+  synthesize: groq      # groq llama-3.3-70b — claude CLI subprocess unreliable in nested sessions
 
 output:
   content_dir: ../content/reflections/

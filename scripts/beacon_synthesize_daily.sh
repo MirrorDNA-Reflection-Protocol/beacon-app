@@ -15,8 +15,10 @@ notify_failure() {
 
 echo "$(date -Iseconds) — Beacon synthesis starting" >> "$LOG"
 
-# Load API keys
+# Load API keys (set -a exports all vars so python child process can see them)
+set -a
 source "$HOME/.mirrordna/secrets.env" 2>/dev/null || true
+set +a
 
 # Check Ollama is up (stages 1-2 need it)
 if ! curl -sf http://localhost:11434/api/tags > /dev/null 2>&1; then
@@ -31,10 +33,28 @@ if ! python3 synthesize.py --days 14 >> "$LOG" 2>&1; then
     exit 1
 fi
 
-# Find the newest post (just created)
-NEWEST=$(ls -t "$BEACON_DIR/content/reflections/"*.md | grep -v _index | head -1)
+# Find the newest post (just created, within last 5 minutes)
+NEWEST=$(find "$BEACON_DIR/content/reflections/" -name "*.md" -not -name "_index*" -mmin -5 -print | head -1)
 if [ -z "$NEWEST" ]; then
-    notify_failure "No post generated"
+    notify_failure "No post generated in last 5 minutes"
+    exit 1
+fi
+
+# Guard: reject empty or untitled posts
+TITLE=$(grep '^title:' "$NEWEST" | head -1 | sed 's/^title: *//' | tr -d "'" | tr -d '"')
+BODY_LINES=$(sed '1,/^---$/d' "$NEWEST" | sed '/^$/d' | wc -l | tr -d ' ')
+
+if [ "$TITLE" = "Untitled Reflection" ] || [ "$TITLE" = "Untitled" ] || [ -z "$TITLE" ]; then
+    notify_failure "Rejected: untitled post ($(basename $NEWEST))"
+    rm "$NEWEST"
+    echo "$(date -Iseconds) — Rejected untitled: $(basename $NEWEST)" >> "$LOG"
+    exit 1
+fi
+
+if [ "$BODY_LINES" -lt 3 ]; then
+    notify_failure "Rejected: empty post ($(basename $NEWEST), $BODY_LINES body lines)"
+    rm "$NEWEST"
+    echo "$(date -Iseconds) — Rejected empty: $(basename $NEWEST)" >> "$LOG"
     exit 1
 fi
 

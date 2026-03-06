@@ -105,7 +105,7 @@ def query_ollama(prompt: str, config: dict) -> str:
                     "num_predict": config["ollama"].get("max_tokens", 4096),
                 },
             },
-            timeout=120.0,
+            timeout=300.0,
         )
         resp.raise_for_status()
         return resp.json()["response"]
@@ -153,15 +153,18 @@ def query_claude(prompt: str, config: dict) -> str:
     try:
         # Clean env: remove CLAUDECODE var to avoid nested session detection
         clean_env = {k: v for k, v in os.environ.items() if "CLAUDECODE" not in k.upper() and "CLAUDE_CODE" not in k.upper()}
+        # Read prompt from temp file to avoid CLI argument length limits
+        with open(prompt_file, "r") as pf:
+            prompt_text = pf.read()
         result = subprocess.run(
             [
                 "claude", "--print",
                 "--model", model,
                 "--max-budget-usd", "0.50",
-                prompt,
             ],
+            input=prompt_text,
             capture_output=True, text=True,
-            timeout=120,
+            timeout=180,
             cwd="/tmp",  # Avoid CLAUDE.md boot protocol
             env=clean_env,
         )
