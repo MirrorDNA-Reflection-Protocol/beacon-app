@@ -1,66 +1,66 @@
 {
-  "generated": "2026-03-05T18:00:06.152400+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-05 18:00 IST*\n\n## Top Signals\n- **[arxiv]** LLM4Cov: Execution-Aware Agentic Learning for High-coverage Testbench Generation — score 1.00\n  Keywords: agent, agentic, LLM, RAG\n- **[arxiv]** Dynamic System Instructions and Tool Exposure for Efficient Agentic LLMs — score 1.00\n  Keywords: agent, agentic, LLM\n- **[arxiv]** AdaptOrch: Task-Adaptive Multi-Agent Orchestration in the Era of LLM Performance Convergence — score 1.00\n  Keywords: agent, multi-agent, orchestration, LLM, benchmark\n- **[arxiv]** LLM4Cov: Execution-Aware Agentic Learning for High-coverage Testbench Generation — score 1.00\n  Keywords: agent, agentic, LLM, RAG\n- **[arxiv]** AdaptOrch: Task-Adaptive Multi-Agent Orchestration in the Era of LLM Performance Convergence — score 1.00\n  Keywords: agent, multi-agent, orchestration, LLM, benchmark\n- **[arxiv]** Patch-to-PoC: A Systematic Study of Agentic LLM Systems for Linux Kernel N-Day Reproduction — score 1.00\n  Keywords: agent, agentic, LLM\n- **[rss]** Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty — score 1.00\n  Keywords: sovereign, India AI, open source AI\n- **[arxiv]** Phase-Aware Mixture of Experts for Agentic Reinforcement Learning — score 0.90\n  Keywords: agent, agentic, LLM\n- **[arxiv]** Policy Compiler for Secure Agentic Systems — score 0.90\n  Keywords: agent, agentic, LLM\n- **[arxiv]** AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation — score 0.90\n  Keywords: agent, multi-agent, LLM",
+  "generated": "2026-03-06T18:00:43.450114+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-06 18:00 IST*\n\n## Top Signals\n- **[arxiv]** Alignment Backfire: Language-Dependent Reversal of Safety Interventions Across 16 Languages in LLM Multi-Agent Systems — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Do Mixed-Vendor Multi-Agent LLMs Improve Clinical Diagnosis? — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG\n- **[arxiv]** Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices — score 1.00\n  Keywords: agent, multi-agent, LLM, inference\n- **[arxiv]** From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows — score 1.00\n  Keywords: agent, privacy, agentic\n- **[arxiv]** ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day Readmission from Clinical Notes — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** RefAgent: A Multi-agent LLM-based Framework for Automatic Software Refactoring — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices — score 1.00\n  Keywords: agent, multi-agent, LLM, inference\n- **[arxiv]** From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Do Mixed-Vendor Multi-Agent LLMs Improve Clinical Diagnosis? — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG",
   "top_signals": [
     {
-      "title": "LLM4Cov: Execution-Aware Agentic Learning for High-coverage Testbench Generation",
-      "url": "https://arxiv.org/abs/2602.16953",
+      "title": "Alignment Backfire: Language-Dependent Reversal of Safety Interventions Across 16 Languages in LLM Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2603.04904",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Dynamic System Instructions and Tool Exposure for Efficient Agentic LLMs",
-      "url": "https://arxiv.org/abs/2602.17046",
+      "title": "Do Mixed-Vendor Multi-Agent LLMs Improve Clinical Diagnosis?",
+      "url": "https://arxiv.org/abs/2603.04421",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "AdaptOrch: Task-Adaptive Multi-Agent Orchestration in the Era of LLM Performance Convergence",
-      "url": "https://arxiv.org/abs/2602.16873",
+      "title": "Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices",
+      "url": "https://arxiv.org/abs/2603.04428",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "LLM4Cov: Execution-Aware Agentic Learning for High-coverage Testbench Generation",
-      "url": "https://arxiv.org/abs/2602.16953",
+      "title": "From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration",
+      "url": "https://arxiv.org/abs/2603.04474",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "AdaptOrch: Task-Adaptive Multi-Agent Orchestration in the Era of LLM Performance Convergence",
-      "url": "https://arxiv.org/abs/2602.16873",
+      "title": "AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows",
+      "url": "https://arxiv.org/abs/2603.04902",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Patch-to-PoC: A Systematic Study of Agentic LLM Systems for Linux Kernel N-Day Reproduction",
-      "url": "https://arxiv.org/abs/2602.07287",
+      "title": "ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day Readmission from Clinical Notes",
+      "url": "https://arxiv.org/abs/2512.07081",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty",
-      "url": "https://blog.mozilla.org/en/mozilla/india-ai-impact-summit/",
-      "source": "rss",
+      "title": "RefAgent: A Multi-agent LLM-based Framework for Automatic Software Refactoring",
+      "url": "https://arxiv.org/abs/2511.03153",
+      "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Phase-Aware Mixture of Experts for Agentic Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2602.17038",
+      "title": "Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices",
+      "url": "https://arxiv.org/abs/2603.04428",
       "source": "arxiv",
-      "score": 0.9
+      "score": 1.0
     },
     {
-      "title": "Policy Compiler for Secure Agentic Systems",
-      "url": "https://arxiv.org/abs/2602.16708",
+      "title": "From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration",
+      "url": "https://arxiv.org/abs/2603.04474",
       "source": "arxiv",
-      "score": 0.9
+      "score": 1.0
     },
     {
-      "title": "AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation",
-      "url": "https://arxiv.org/abs/2602.17100",
+      "title": "Do Mixed-Vendor Multi-Agent LLMs Improve Clinical Diagnosis?",
+      "url": "https://arxiv.org/abs/2603.04421",
       "source": "arxiv",
-      "score": 0.9
+      "score": 1.0
     }
   ]
 }
