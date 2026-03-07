@@ -1,66 +1,66 @@
 {
-  "generated": "2026-03-06T18:00:43.450114+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-06 18:00 IST*\n\n## Top Signals\n- **[arxiv]** Alignment Backfire: Language-Dependent Reversal of Safety Interventions Across 16 Languages in LLM Multi-Agent Systems — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Do Mixed-Vendor Multi-Agent LLMs Improve Clinical Diagnosis? — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG\n- **[arxiv]** Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices — score 1.00\n  Keywords: agent, multi-agent, LLM, inference\n- **[arxiv]** From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows — score 1.00\n  Keywords: agent, privacy, agentic\n- **[arxiv]** ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day Readmission from Clinical Notes — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** RefAgent: A Multi-agent LLM-based Framework for Automatic Software Refactoring — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices — score 1.00\n  Keywords: agent, multi-agent, LLM, inference\n- **[arxiv]** From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Do Mixed-Vendor Multi-Agent LLMs Improve Clinical Diagnosis? — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG",
+  "generated": "2026-03-07T18:00:43.494905+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-07 18:00 IST*\n\n## Top Signals\n- **[rss]** Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required — score 1.00\n  Keywords: agent, Claude, Anthropic\n- **[rss]** Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty — score 1.00\n  Keywords: sovereign, India AI, open source AI\n- **[rss]** Agentic manual testing — score 0.80\n  Keywords: agent, agentic\n- **[rss]** Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers — score 0.80\n  Keywords: Claude, Anthropic\n- **[rss]** Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks — score 0.80\n  Keywords: Claude, Anthropic\n- **[rss]** Cursor is rolling out a new kind of agentic coding tool — score 0.80\n  Keywords: agent, agentic\n- **[rss]** The Anthropic-DOD Conflict: Privacy Protections Shouldn’t Depend On the Decisions of a Few Powerful People — score 0.80\n  Keywords: privacy, Anthropic\n- **[github]** QwenLM/Qwen-Agent — score 0.73\n  Keywords: agent, MCP, RAG\n- **[rss]** LLM Powered Autonomous Agents — score 0.60\n  Keywords: agent, LLM\n- **[rss]** Claude Code costs up to $200 a month. Goose does the same thing for free. — score 0.60\n  Keywords: Claude, Anthropic",
   "top_signals": [
     {
-      "title": "Alignment Backfire: Language-Dependent Reversal of Safety Interventions Across 16 Languages in LLM Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2603.04904",
-      "source": "arxiv",
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "source": "rss",
       "score": 1.0
     },
     {
-      "title": "Do Mixed-Vendor Multi-Agent LLMs Improve Clinical Diagnosis?",
-      "url": "https://arxiv.org/abs/2603.04421",
-      "source": "arxiv",
+      "title": "Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty",
+      "url": "https://blog.mozilla.org/en/mozilla/india-ai-impact-summit/",
+      "source": "rss",
       "score": 1.0
     },
     {
-      "title": "Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices",
-      "url": "https://arxiv.org/abs/2603.04428",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "Agentic manual testing",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
+      "source": "rss",
+      "score": 0.8
     },
     {
-      "title": "From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration",
-      "url": "https://arxiv.org/abs/2603.04474",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
+      "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
+      "source": "rss",
+      "score": 0.8
     },
     {
-      "title": "AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows",
-      "url": "https://arxiv.org/abs/2603.04902",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks",
+      "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+      "source": "rss",
+      "score": 0.8
     },
     {
-      "title": "ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day Readmission from Clinical Notes",
-      "url": "https://arxiv.org/abs/2512.07081",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "Cursor is rolling out a new kind of agentic coding tool",
+      "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "source": "rss",
+      "score": 0.8
     },
     {
-      "title": "RefAgent: A Multi-agent LLM-based Framework for Automatic Software Refactoring",
-      "url": "https://arxiv.org/abs/2511.03153",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "The Anthropic-DOD Conflict: Privacy Protections Shouldn’t Depend On the Decisions of a Few Powerful People",
+      "url": "https://www.eff.org/deeplinks/2026/03/anthropic-dod-conflict-privacy-protections-shouldnt-depend-decisions-few-powerful",
+      "source": "rss",
+      "score": 0.8
     },
     {
-      "title": "Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices",
-      "url": "https://arxiv.org/abs/2603.04428",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "QwenLM/Qwen-Agent",
+      "url": "https://github.com/QwenLM/Qwen-Agent",
+      "source": "github",
+      "score": 0.73
     },
     {
-      "title": "From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration",
-      "url": "https://arxiv.org/abs/2603.04474",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "LLM Powered Autonomous Agents",
+      "url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+      "source": "rss",
+      "score": 0.6
     },
     {
-      "title": "Do Mixed-Vendor Multi-Agent LLMs Improve Clinical Diagnosis?",
-      "url": "https://arxiv.org/abs/2603.04421",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "source": "rss",
+      "score": 0.6
     }
   ]
 }
