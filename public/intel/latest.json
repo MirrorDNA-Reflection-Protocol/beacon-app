@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-07T18:00:43.494905+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-07 18:00 IST*\n\n## Top Signals\n- **[rss]** Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required — score 1.00\n  Keywords: agent, Claude, Anthropic\n- **[rss]** Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty — score 1.00\n  Keywords: sovereign, India AI, open source AI\n- **[rss]** Agentic manual testing — score 0.80\n  Keywords: agent, agentic\n- **[rss]** Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers — score 0.80\n  Keywords: Claude, Anthropic\n- **[rss]** Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks — score 0.80\n  Keywords: Claude, Anthropic\n- **[rss]** Cursor is rolling out a new kind of agentic coding tool — score 0.80\n  Keywords: agent, agentic\n- **[rss]** The Anthropic-DOD Conflict: Privacy Protections Shouldn’t Depend On the Decisions of a Few Powerful People — score 0.80\n  Keywords: privacy, Anthropic\n- **[github]** QwenLM/Qwen-Agent — score 0.73\n  Keywords: agent, MCP, RAG\n- **[rss]** LLM Powered Autonomous Agents — score 0.60\n  Keywords: agent, LLM\n- **[rss]** Claude Code costs up to $200 a month. Goose does the same thing for free. — score 0.60\n  Keywords: Claude, Anthropic",
+  "generated": "2026-03-08T18:00:48.927949+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-08 18:00 IST*\n\n## Top Signals\n- **[rss]** Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required — score 1.00\n  Keywords: agent, Claude, Anthropic\n- **[rss]** Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty — score 1.00\n  Keywords: sovereign, India AI, open source AI\n- **[rss]** Agentic manual testing — score 0.80\n  Keywords: agent, agentic\n- **[rss]** Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers — score 0.80\n  Keywords: Claude, Anthropic\n- **[rss]** Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks — score 0.80\n  Keywords: Claude, Anthropic\n- **[rss]** The Anthropic-DOD Conflict: Privacy Protections Shouldn’t Depend On the Decisions of a Few Powerful People — score 0.80\n  Keywords: privacy, Anthropic\n- **[github]** QwenLM/Qwen-Agent — score 0.73\n  Keywords: agent, MCP, RAG\n- **[rss]** LLM Powered Autonomous Agents — score 0.60\n  Keywords: agent, LLM\n- **[rss]** Claude Code costs up to $200 a month. Goose does the same thing for free. — score 0.60\n  Keywords: Claude, Anthropic\n- **[rss]** The creator of Claude Code just revealed his workflow, and developers are losing their minds — score 0.60\n  Keywords: agent, Claude",
   "top_signals": [
     {
       "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
@@ -33,12 +33,6 @@
       "score": 0.8
     },
     {
-      "title": "Cursor is rolling out a new kind of agentic coding tool",
-      "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
-      "source": "rss",
-      "score": 0.8
-    },
-    {
       "title": "The Anthropic-DOD Conflict: Privacy Protections Shouldn’t Depend On the Decisions of a Few Powerful People",
       "url": "https://www.eff.org/deeplinks/2026/03/anthropic-dod-conflict-privacy-protections-shouldnt-depend-decisions-few-powerful",
       "source": "rss",
@@ -59,6 +53,12 @@
     {
       "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
       "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "source": "rss",
+      "score": 0.6
+    },
+    {
+      "title": "The creator of Claude Code just revealed his workflow, and developers are losing their minds",
+      "url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
       "source": "rss",
       "score": 0.6
     }
