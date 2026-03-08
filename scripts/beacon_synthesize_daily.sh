@@ -28,7 +28,7 @@ fi
 
 # Run synthesis (14 day window for variety)
 cd "$ENGINE_DIR"
-if ! python3 synthesize.py --days 14 >> "$LOG" 2>&1; then
+if ! /usr/bin/python3 synthesize.py --days 14 >> "$LOG" 2>&1; then
     notify_failure "Synthesis pipeline failed"
     exit 1
 fi
