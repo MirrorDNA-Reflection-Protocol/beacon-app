@@ -243,7 +243,7 @@ export default function Terminal() {
           }
         } catch (e) {
           typeOutput(`\n  Model registry not accessible from public network.
-  Running locally: 14 models via Ollama
+  Running locally: 17 models via Ollama
 
   Known models:
     llama3.2:3b

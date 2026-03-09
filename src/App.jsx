@@ -309,7 +309,7 @@ function ScanTerminal() {
   const inputRef = useRef(null);
   const quotes = [
     "The model is interchangeable. The bus is identity.",
-    "107 repos, one Mac Mini, zero cloud deps.",
+    "116 repos, one Mac Mini, zero cloud deps.",
     "There's nothing between a scammer and a grandmother with a smartphone.",
     "Your AI identity should be a portable file — stored in your files, not theirs.",
   ];
@@ -798,7 +798,7 @@ export default function App() {
                     { n: 'Memory Bus', on: false, d: 'LAN only' },
                     { n: 'Factory', on: false, d: 'LAN only' },
                     { n: 'Dashboard', on: false, d: '24 panels' },
-                    { n: 'Ollama', on: false, d: '14 models' },
+                    { n: 'Ollama', on: false, d: '17 models' },
                     { n: 'MirrorBrain', on: false, d: 'Android' },
                     { n: 'GlyphTrail', on: false, d: 'Audit log' },
                   ].map(s => (

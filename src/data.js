@@ -161,7 +161,7 @@ export const ARTICLES = [
 ];
 
 export const STATS = [
-  { value: '107', label: 'Repos' },
+  { value: '116', label: 'Repos' },
   { value: '14', label: 'AI Models' },
   { value: '24', label: 'Services' },
   { value: '12k', label: 'Lines in OS' },

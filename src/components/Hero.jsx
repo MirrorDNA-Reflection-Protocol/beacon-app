@@ -6,7 +6,7 @@ export default function Hero() {
           Active Mirror<span className="text-[var(--color-text-muted)] text-lg align-super ml-1">TM</span> Beacon
         </h1>
         <p className="mt-4 text-[var(--color-text-dim)] text-sm sm:text-base max-w-xl mx-auto">
-          Daily reflections, live scam scanning, and a build log from a sovereign AI stack — 107 repos, 14 models, zero cloud dependencies.
+          Daily reflections, live scam scanning, and a build log from a sovereign AI stack — 116 repos, 17 models, zero cloud dependencies.
         </p>
         <div className="mt-8 flex gap-3 justify-center text-xs text-[var(--color-text-muted)] flex-wrap">
           <a href="#articles" className="border border-[var(--color-border)] px-3 py-1.5 hover:border-[var(--color-amber)] hover:text-[var(--color-amber)] transition-colors">
