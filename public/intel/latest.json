@@ -1,66 +1,66 @@
 {
-  "generated": "2026-03-08T18:00:48.927949+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-08 18:00 IST*\n\n## Top Signals\n- **[rss]** Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required — score 1.00\n  Keywords: agent, Claude, Anthropic\n- **[rss]** Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty — score 1.00\n  Keywords: sovereign, India AI, open source AI\n- **[rss]** Agentic manual testing — score 0.80\n  Keywords: agent, agentic\n- **[rss]** Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers — score 0.80\n  Keywords: Claude, Anthropic\n- **[rss]** Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks — score 0.80\n  Keywords: Claude, Anthropic\n- **[rss]** The Anthropic-DOD Conflict: Privacy Protections Shouldn’t Depend On the Decisions of a Few Powerful People — score 0.80\n  Keywords: privacy, Anthropic\n- **[github]** QwenLM/Qwen-Agent — score 0.73\n  Keywords: agent, MCP, RAG\n- **[rss]** LLM Powered Autonomous Agents — score 0.60\n  Keywords: agent, LLM\n- **[rss]** Claude Code costs up to $200 a month. Goose does the same thing for free. — score 0.60\n  Keywords: Claude, Anthropic\n- **[rss]** The creator of Claude Code just revealed his workflow, and developers are losing their minds — score 0.60\n  Keywords: agent, Claude",
+  "generated": "2026-03-09T18:00:50.481789+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-09 18:00 IST*\n\n## Top Signals\n- **[arxiv]** Agentic LLM Planning via Step-Wise PDDL Simulation: An Empirical Characterisation — score 1.00\n  Keywords: agent, agentic, LLM\n- **[arxiv]** SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG\n- **[arxiv]** MASFactory: A Graph-centric Framework for Orchestrating LLM-Based Multi-Agent Systems with Vibe Graphing — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM\n- **[arxiv]** Information-Theoretic Privacy Control for Sequential Multi-Agent LLM Systems — score 1.00\n  Keywords: agent, privacy, multi-agent, LLM\n- **[arxiv]** Information-Theoretic Privacy Control for Sequential Multi-Agent LLM Systems — score 1.00\n  Keywords: agent, privacy, multi-agent, LLM\n- **[arxiv]** MASFactory: A Graph-centric Framework for Orchestrating LLM-Based Multi-Agent Systems with Vibe Graphing — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM\n- **[arxiv]** MARLIN: Multi-Agent Reinforcement Learning with Murmuration Intelligence and LLM Guidance for Reservoir Management — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG\n- **[arxiv]** Information-Theoretic Privacy Control for Sequential Multi-Agent LLM Systems — score 1.00\n  Keywords: agent, privacy, multi-agent, LLM\n- **[rss]** Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required — score 1.00\n  Keywords: agent, Claude, Anthropic",
   "top_signals": [
+    {
+      "title": "Agentic LLM Planning via Step-Wise PDDL Simulation: An Empirical Characterisation",
+      "url": "https://arxiv.org/abs/2603.06064",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2603.05689",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "MASFactory: A Graph-centric Framework for Orchestrating LLM-Based Multi-Agent Systems with Vibe Graphing",
+      "url": "https://arxiv.org/abs/2603.06007",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "Information-Theoretic Privacy Control for Sequential Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2603.05520",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "Information-Theoretic Privacy Control for Sequential Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2603.05520",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "MASFactory: A Graph-centric Framework for Orchestrating LLM-Based Multi-Agent Systems with Vibe Graphing",
+      "url": "https://arxiv.org/abs/2603.06007",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "MARLIN: Multi-Agent Reinforcement Learning with Murmuration Intelligence and LLM Guidance for Reservoir Management",
+      "url": "https://arxiv.org/abs/2509.25034",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "SecureRAG-RTL: A Retrieval-Augmented, Multi-Agent, Zero-Shot LLM-Driven Framework for Hardware Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2603.05689",
+      "source": "arxiv",
+      "score": 1.0
+    },
+    {
+      "title": "Information-Theoretic Privacy Control for Sequential Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2603.05520",
+      "source": "arxiv",
+      "score": 1.0
+    },
     {
       "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
       "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
       "source": "rss",
       "score": 1.0
-    },
-    {
-      "title": "Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty",
-      "url": "https://blog.mozilla.org/en/mozilla/india-ai-impact-summit/",
-      "source": "rss",
-      "score": 1.0
-    },
-    {
-      "title": "Agentic manual testing",
-      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
-      "source": "rss",
-      "score": 0.8
-    },
-    {
-      "title": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
-      "url": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
-      "source": "rss",
-      "score": 0.8
-    },
-    {
-      "title": "Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks",
-      "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
-      "source": "rss",
-      "score": 0.8
-    },
-    {
-      "title": "The Anthropic-DOD Conflict: Privacy Protections Shouldn’t Depend On the Decisions of a Few Powerful People",
-      "url": "https://www.eff.org/deeplinks/2026/03/anthropic-dod-conflict-privacy-protections-shouldnt-depend-decisions-few-powerful",
-      "source": "rss",
-      "score": 0.8
-    },
-    {
-      "title": "QwenLM/Qwen-Agent",
-      "url": "https://github.com/QwenLM/Qwen-Agent",
-      "source": "github",
-      "score": 0.73
-    },
-    {
-      "title": "LLM Powered Autonomous Agents",
-      "url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
-      "source": "rss",
-      "score": 0.6
-    },
-    {
-      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-      "source": "rss",
-      "score": 0.6
-    },
-    {
-      "title": "The creator of Claude Code just revealed his workflow, and developers are losing their minds",
-      "url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
-      "source": "rss",
-      "score": 0.6
     }
   ]
 }
