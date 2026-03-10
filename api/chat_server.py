@@ -13,6 +13,7 @@ Legal safeguards:
 """
 
 import os
+import sys
 import time
 from collections import defaultdict
 from pathlib import Path
@@ -20,6 +21,31 @@ from pathlib import Path
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
+
+LIB_DIR = Path.home() / ".mirrordna" / "lib"
+if str(LIB_DIR) not in sys.path:
+    sys.path.insert(0, str(LIB_DIR))
+
+try:
+    from secrets_loader import load_named_secrets
+except Exception:  # pragma: no cover - optional local dependency
+    load_named_secrets = None
+
+
+def _hydrate_env() -> None:
+    if load_named_secrets is None:
+        return
+    names = [
+        "ANTHROPIC_API_KEY",
+        "GROQ_API_KEY",
+        "DEEPSEEK_API_KEY",
+        "MISTRAL_API_KEY",
+    ]
+    for key, value in load_named_secrets(names).items():
+        os.environ.setdefault(key, value)
+
+
+_hydrate_env()
 
 # ── Config ──
 PORT = int(os.environ.get("BEACON_CHAT_PORT", "8095"))
@@ -180,7 +206,7 @@ def _try_claude_max(messages):
 def _try_ollama(messages):
     import httpx
     resp = httpx.post(f"{OLLAMA_URL}/api/chat", json={
-        "model": "llama3.1:8b",
+        "model": "llama3.2:3b",
         "messages": [{"role": "system", "content": SYSTEM_PROMPT}] + messages,
         "stream": False,
         "options": {"temperature": 0.6, "num_predict": 400},
@@ -360,17 +386,6 @@ async def health():
 
 if __name__ == "__main__":
     import uvicorn
-
-    # Load secrets from file
-    secrets_path = Path.home() / ".mirrordna" / "secrets.env"
-    if secrets_path.exists():
-        for line in secrets_path.read_text().splitlines():
-            line = line.strip()
-            if line and not line.startswith("#") and "=" in line:
-                key, _, val = line.partition("=")
-                val = val.strip().strip("'\"")
-                if key.strip() and val:
-                    os.environ.setdefault(key.strip(), val)
 
     # Report status
     print(f"Beacon Chat Server · port {PORT}")
