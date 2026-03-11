@@ -1,64 +1,64 @@
 {
-  "generated": "2026-03-10T18:00:50.605140+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-10 18:00 IST*\n\n## Top Signals\n- **[arxiv]** The Yerkes-Dodson Curve for AI Agents: Emergent Cooperation Under Environmental Pressure in Multi-Agent LLM Simulations — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** SoK: Agentic Retrieval-Augmented Generation (RAG): Taxonomy, Architectures, Evaluation, and Research Directions — score 1.00\n  Keywords: agent, agentic, RAG\n- **[arxiv]** Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** FinToolBench: Evaluating LLM Agents for Real-World Financial Tool Use — score 1.00\n  Keywords: agent, tool use, LLM\n- **[arxiv]** M$^3$-ACE: Rectifying Visual Perception in Multimodal Math Reasoning via Multi-Agentic Context Engineering — score 1.00\n  Keywords: agent, multi-agent, agentic\n- **[arxiv]** Agentic SPARQL: Evaluating SPARQL-MCP-powered Intelligent Agents on the Federated KGQA Benchmark — score 1.00\n  Keywords: agent, MCP, agentic, LLM, benchmark\n- **[arxiv]** Contextual Counterfactual Credit Assignment for Multi-Agent Reinforcement Learning in LLM Collaboration — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Parallelized Planning-Acting for Efficient LLM-based Multi-Agent Systems in Minecraft — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** MICA: Multi-Agent Industrial Coordination Assistant — score 1.00\n  Keywords: agent, privacy, multi-agent\n- **[arxiv]** MAS-Orchestra: Understanding and Improving Multi-Agent Reasoning Through Holistic Orchestration and Controlled Benchmarks — score 1.00\n  Keywords: agent, multi-agent, orchestration, benchmark",
+  "generated": "2026-03-11T18:00:47.917129+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-11 18:00 IST*\n\n## Top Signals\n- **[arxiv]** MASEval: Extending Multi-Agent Evaluation from Models to Systems — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM\n- **[arxiv]** LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems — score 1.00\n  Keywords: agent, MCP, identity, multi-agent, LLM\n- **[arxiv]** Quantifying the Accuracy and Cost Impact of Design Decisions in Budget-Constrained Agentic LLM Search — score 1.00\n  Keywords: agent, agentic, LLM, RAG\n- **[arxiv]** MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Time, Identity and Consciousness in Language Model Agents — score 1.00\n  Keywords: agent, identity, tool use\n- **[arxiv]** Influencing LLM Multi-Agent Dialogue via Policy-Parameterized Prompts — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems — score 1.00\n  Keywords: agent, multi-agent, orchestration, RAG, benchmark\n- **[arxiv]** Alignment Is the Disease: Censorship Visibility and Alignment Constraint Complexity as Determinants of Collective Pathology in Multi-Agent LLM Systems — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning — score 1.00\n  Keywords: agent, agentic, fine-tuning\n- **[arxiv]** MASEval: Extending Multi-Agent Evaluation from Models to Systems — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM",
   "top_signals": [
     {
-      "title": "The Yerkes-Dodson Curve for AI Agents: Emergent Cooperation Under Environmental Pressure in Multi-Agent LLM Simulations",
-      "url": "https://arxiv.org/abs/2603.07360",
+      "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
+      "url": "https://arxiv.org/abs/2603.08835",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "SoK: Agentic Retrieval-Augmented Generation (RAG): Taxonomy, Architectures, Evaluation, and Research Directions",
-      "url": "https://arxiv.org/abs/2603.07379",
+      "title": "LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2603.08852",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning",
-      "url": "https://arxiv.org/abs/2603.07972",
+      "title": "Quantifying the Accuracy and Cost Impact of Design Decisions in Budget-Constrained Agentic LLM Search",
+      "url": "https://arxiv.org/abs/2603.08877",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "FinToolBench: Evaluating LLM Agents for Real-World Financial Tool Use",
-      "url": "https://arxiv.org/abs/2603.08262",
+      "title": "MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games",
+      "url": "https://arxiv.org/abs/2603.09022",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "M$^3$-ACE: Rectifying Visual Perception in Multimodal Math Reasoning via Multi-Agentic Context Engineering",
-      "url": "https://arxiv.org/abs/2603.08369",
+      "title": "Time, Identity and Consciousness in Language Model Agents",
+      "url": "https://arxiv.org/abs/2603.09043",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Agentic SPARQL: Evaluating SPARQL-MCP-powered Intelligent Agents on the Federated KGQA Benchmark",
-      "url": "https://arxiv.org/abs/2603.06582",
+      "title": "Influencing LLM Multi-Agent Dialogue via Policy-Parameterized Prompts",
+      "url": "https://arxiv.org/abs/2603.09890",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Contextual Counterfactual Credit Assignment for Multi-Agent Reinforcement Learning in LLM Collaboration",
-      "url": "https://arxiv.org/abs/2603.06859",
+      "title": "MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2603.09909",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Parallelized Planning-Acting for Efficient LLM-based Multi-Agent Systems in Minecraft",
-      "url": "https://arxiv.org/abs/2503.03505",
+      "title": "Alignment Is the Disease: Censorship Visibility and Alignment Constraint Complexity as Determinants of Collective Pathology in Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2603.08723",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "MICA: Multi-Agent Industrial Coordination Assistant",
-      "url": "https://arxiv.org/abs/2509.15237",
+      "title": "Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning",
+      "url": "https://arxiv.org/abs/2512.15943",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "MAS-Orchestra: Understanding and Improving Multi-Agent Reasoning Through Holistic Orchestration and Controlled Benchmarks",
-      "url": "https://arxiv.org/abs/2601.14652",
+      "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
+      "url": "https://arxiv.org/abs/2603.08835",
       "source": "arxiv",
       "score": 1.0
     }
