@@ -1,64 +1,64 @@
 {
-  "generated": "2026-03-11T18:00:47.917129+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-11 18:00 IST*\n\n## Top Signals\n- **[arxiv]** MASEval: Extending Multi-Agent Evaluation from Models to Systems — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM\n- **[arxiv]** LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems — score 1.00\n  Keywords: agent, MCP, identity, multi-agent, LLM\n- **[arxiv]** Quantifying the Accuracy and Cost Impact of Design Decisions in Budget-Constrained Agentic LLM Search — score 1.00\n  Keywords: agent, agentic, LLM, RAG\n- **[arxiv]** MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Time, Identity and Consciousness in Language Model Agents — score 1.00\n  Keywords: agent, identity, tool use\n- **[arxiv]** Influencing LLM Multi-Agent Dialogue via Policy-Parameterized Prompts — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems — score 1.00\n  Keywords: agent, multi-agent, orchestration, RAG, benchmark\n- **[arxiv]** Alignment Is the Disease: Censorship Visibility and Alignment Constraint Complexity as Determinants of Collective Pathology in Multi-Agent LLM Systems — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning — score 1.00\n  Keywords: agent, agentic, fine-tuning\n- **[arxiv]** MASEval: Extending Multi-Agent Evaluation from Models to Systems — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM",
+  "generated": "2026-03-12T18:00:45.767862+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-12 18:00 IST*\n\n## Top Signals\n- **[arxiv]** SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation — score 1.00\n  Keywords: agent, agentic, orchestration\n- **[arxiv]** KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG, GPU\n- **[arxiv]** DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice — score 1.00\n  Keywords: agent, agentic, orchestration, LLM\n- **[arxiv]** Learning to Negotiate: Multi-Agent Deliberation for Collective Value Alignment in LLMs — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG, GPU\n- **[arxiv]** LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG, GPU\n- **[arxiv]** ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System — score 1.00\n  Keywords: agent, agentic, LLM, RAG, inference\n- **[arxiv]** SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation — score 1.00\n  Keywords: agent, agentic, orchestration\n- **[arxiv]** DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice — score 1.00\n  Keywords: agent, agentic, orchestration, LLM",
   "top_signals": [
     {
-      "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
-      "url": "https://arxiv.org/abs/2603.08835",
+      "title": "SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation",
+      "url": "https://arxiv.org/abs/2603.10057",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems",
-      "url": "https://arxiv.org/abs/2603.08852",
+      "title": "KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization",
+      "url": "https://arxiv.org/abs/2603.10085",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Quantifying the Accuracy and Cost Impact of Design Decisions in Budget-Constrained Agentic LLM Search",
-      "url": "https://arxiv.org/abs/2603.08877",
+      "title": "DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice",
+      "url": "https://arxiv.org/abs/2603.10249",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games",
-      "url": "https://arxiv.org/abs/2603.09022",
+      "title": "Learning to Negotiate: Multi-Agent Deliberation for Collective Value Alignment in LLMs",
+      "url": "https://arxiv.org/abs/2603.10476",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Time, Identity and Consciousness in Language Model Agents",
-      "url": "https://arxiv.org/abs/2603.09043",
+      "title": "KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization",
+      "url": "https://arxiv.org/abs/2603.10085",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Influencing LLM Multi-Agent Dialogue via Policy-Parameterized Prompts",
-      "url": "https://arxiv.org/abs/2603.09890",
+      "title": "LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce",
+      "url": "https://arxiv.org/abs/2603.11025",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2603.09909",
+      "title": "KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization",
+      "url": "https://arxiv.org/abs/2603.10085",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Alignment Is the Disease: Censorship Visibility and Alignment Constraint Complexity as Determinants of Collective Pathology in Multi-Agent LLM Systems",
-      "url": "https://arxiv.org/abs/2603.08723",
+      "title": "ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System",
+      "url": "https://arxiv.org/abs/2602.13692",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning",
-      "url": "https://arxiv.org/abs/2512.15943",
+      "title": "SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation",
+      "url": "https://arxiv.org/abs/2603.10057",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
-      "url": "https://arxiv.org/abs/2603.08835",
+      "title": "DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice",
+      "url": "https://arxiv.org/abs/2603.10249",
       "source": "arxiv",
       "score": 1.0
     }
