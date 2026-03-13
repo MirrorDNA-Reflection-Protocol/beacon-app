@@ -1,64 +1,64 @@
 {
-  "generated": "2026-03-12T18:00:45.767862+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-12 18:00 IST*\n\n## Top Signals\n- **[arxiv]** SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation — score 1.00\n  Keywords: agent, agentic, orchestration\n- **[arxiv]** KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG, GPU\n- **[arxiv]** DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice — score 1.00\n  Keywords: agent, agentic, orchestration, LLM\n- **[arxiv]** Learning to Negotiate: Multi-Agent Deliberation for Collective Value Alignment in LLMs — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG, GPU\n- **[arxiv]** LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization — score 1.00\n  Keywords: agent, multi-agent, LLM, RAG, GPU\n- **[arxiv]** ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System — score 1.00\n  Keywords: agent, agentic, LLM, RAG, inference\n- **[arxiv]** SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation — score 1.00\n  Keywords: agent, agentic, orchestration\n- **[arxiv]** DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice — score 1.00\n  Keywords: agent, agentic, orchestration, LLM",
+  "generated": "2026-03-13T18:00:44.497105+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-13 18:00 IST*\n\n## Top Signals\n- **[arxiv]** DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use — score 1.00\n  Keywords: agent, agentic, tool use, LLM\n- **[arxiv]** COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics — score 1.00\n  Keywords: sovereign, agent, agentic, LLM\n- **[arxiv]** Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution — score 1.00\n  Keywords: agent, multi-agent, orchestration, LLM\n- **[arxiv]** Automating Skill Acquisition through Large-Scale Mining of Open-Source Agentic Repositories: A Framework for Multi-Agent Procedural Knowledge Extraction — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM\n- **[arxiv]** Quality-Driven Agentic Reasoning for LLM-Assisted Software Design: Questions-of-Thoughts (QoT) as a Time-Series Self-QA Chain — score 1.00\n  Keywords: agent, agentic, LLM\n- **[arxiv]** WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference — score 1.00\n  Keywords: agent, multi-agent, LLM, inference\n- **[arxiv]** Mobile-Agent-RAG: Driving Smart Multi-Agent Coordination with Contextual Knowledge Empowerment for Long-Horizon Mobile Automation — score 1.00\n  Keywords: agent, multi-agent, RAG\n- **[arxiv]** Enhancing Value Alignment of LLMs with Multi-agent system and Combinatorial Fusion — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution — score 1.00\n  Keywords: agent, multi-agent, orchestration, LLM\n- **[arxiv]** WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference — score 1.00\n  Keywords: agent, multi-agent, LLM, inference",
   "top_signals": [
     {
-      "title": "SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation",
-      "url": "https://arxiv.org/abs/2603.10057",
+      "title": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
+      "url": "https://arxiv.org/abs/2603.11076",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization",
-      "url": "https://arxiv.org/abs/2603.10085",
+      "title": "COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics",
+      "url": "https://arxiv.org/abs/2603.11277",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice",
-      "url": "https://arxiv.org/abs/2603.10249",
+      "title": "Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution",
+      "url": "https://arxiv.org/abs/2603.11445",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Learning to Negotiate: Multi-Agent Deliberation for Collective Value Alignment in LLMs",
-      "url": "https://arxiv.org/abs/2603.10476",
+      "title": "Automating Skill Acquisition through Large-Scale Mining of Open-Source Agentic Repositories: A Framework for Multi-Agent Procedural Knowledge Extraction",
+      "url": "https://arxiv.org/abs/2603.11808",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization",
-      "url": "https://arxiv.org/abs/2603.10085",
+      "title": "Quality-Driven Agentic Reasoning for LLM-Assisted Software Design: Questions-of-Thoughts (QoT) as a Time-Series Self-QA Chain",
+      "url": "https://arxiv.org/abs/2603.11082",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce",
-      "url": "https://arxiv.org/abs/2603.11025",
+      "title": "WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference",
+      "url": "https://arxiv.org/abs/2603.11132",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization",
-      "url": "https://arxiv.org/abs/2603.10085",
+      "title": "Mobile-Agent-RAG: Driving Smart Multi-Agent Coordination with Contextual Knowledge Empowerment for Long-Horizon Mobile Automation",
+      "url": "https://arxiv.org/abs/2511.12254",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System",
-      "url": "https://arxiv.org/abs/2602.13692",
+      "title": "Enhancing Value Alignment of LLMs with Multi-agent system and Combinatorial Fusion",
+      "url": "https://arxiv.org/abs/2603.11126",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "SBOMs into Agentic AIBOMs: Schema Extensions, Agentic Orchestration, and Reproducibility Evaluation",
-      "url": "https://arxiv.org/abs/2603.10057",
+      "title": "Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution",
+      "url": "https://arxiv.org/abs/2603.11445",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice",
-      "url": "https://arxiv.org/abs/2603.10249",
+      "title": "WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference",
+      "url": "https://arxiv.org/abs/2603.11132",
       "source": "arxiv",
       "score": 1.0
     }
