@@ -1,66 +1,66 @@
 {
-  "generated": "2026-03-13T18:00:44.497105+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-13 18:00 IST*\n\n## Top Signals\n- **[arxiv]** DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use — score 1.00\n  Keywords: agent, agentic, tool use, LLM\n- **[arxiv]** COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics — score 1.00\n  Keywords: sovereign, agent, agentic, LLM\n- **[arxiv]** Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution — score 1.00\n  Keywords: agent, multi-agent, orchestration, LLM\n- **[arxiv]** Automating Skill Acquisition through Large-Scale Mining of Open-Source Agentic Repositories: A Framework for Multi-Agent Procedural Knowledge Extraction — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM\n- **[arxiv]** Quality-Driven Agentic Reasoning for LLM-Assisted Software Design: Questions-of-Thoughts (QoT) as a Time-Series Self-QA Chain — score 1.00\n  Keywords: agent, agentic, LLM\n- **[arxiv]** WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference — score 1.00\n  Keywords: agent, multi-agent, LLM, inference\n- **[arxiv]** Mobile-Agent-RAG: Driving Smart Multi-Agent Coordination with Contextual Knowledge Empowerment for Long-Horizon Mobile Automation — score 1.00\n  Keywords: agent, multi-agent, RAG\n- **[arxiv]** Enhancing Value Alignment of LLMs with Multi-agent system and Combinatorial Fusion — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution — score 1.00\n  Keywords: agent, multi-agent, orchestration, LLM\n- **[arxiv]** WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference — score 1.00\n  Keywords: agent, multi-agent, LLM, inference",
+  "generated": "2026-03-14T18:00:40.924718+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-14 18:00 IST*\n\n## Top Signals\n- **[rss]** Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required — score 1.00\n  Keywords: agent, Claude, Anthropic\n- **[rss]** Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty — score 1.00\n  Keywords: sovereign, India AI, open source AI\n- **[arxiv]** WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via Multi-Agent Reinforcement Learning — score 0.90\n  Keywords: agent, multi-agent, LLM\n- **[github]** anthropics/claude-plugins-official — score 0.83\n  Keywords: Claude, Anthropic\n- **[github]** hesreallyhim/awesome-claude-code — score 0.83\n  Keywords: agent, Claude, Anthropic\n- **[arxiv]** Meta-Reinforcement Learning with Self-Reflection for Agentic Search — score 0.80\n  Keywords: agent, agentic\n- **[arxiv]** AGMARL-DKS: An Adaptive Graph-Enhanced Multi-Agent Reinforcement Learning for Dynamic Kubernetes Scheduling — score 0.80\n  Keywords: agent, multi-agent\n- **[arxiv]** Multi-Agent Reinforcement Learning for Greenhouse Gas Offset Credit Markets — score 0.80\n  Keywords: agent, multi-agent\n- **[arxiv]** Enhancing Sample Efficiency in Multi-Agent RL with Uncertainty Quantification and Selective Exploration — score 0.80\n  Keywords: agent, multi-agent\n- **[arxiv]** Agentic Design Review System — score 0.80\n  Keywords: agent, agentic",
   "top_signals": [
     {
-      "title": "DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use",
-      "url": "https://arxiv.org/abs/2603.11076",
-      "source": "arxiv",
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "source": "rss",
       "score": 1.0
     },
     {
-      "title": "COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics",
-      "url": "https://arxiv.org/abs/2603.11277",
-      "source": "arxiv",
+      "title": "Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty",
+      "url": "https://blog.mozilla.org/en/mozilla/india-ai-impact-summit/",
+      "source": "rss",
       "score": 1.0
     },
     {
-      "title": "Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution",
-      "url": "https://arxiv.org/abs/2603.11445",
+      "title": "WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via Multi-Agent Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2602.04634",
       "source": "arxiv",
-      "score": 1.0
+      "score": 0.9
     },
     {
-      "title": "Automating Skill Acquisition through Large-Scale Mining of Open-Source Agentic Repositories: A Framework for Multi-Agent Procedural Knowledge Extraction",
-      "url": "https://arxiv.org/abs/2603.11808",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "source": "github",
+      "score": 0.83
     },
     {
-      "title": "Quality-Driven Agentic Reasoning for LLM-Assisted Software Design: Questions-of-Thoughts (QoT) as a Time-Series Self-QA Chain",
-      "url": "https://arxiv.org/abs/2603.11082",
-      "source": "arxiv",
-      "score": 1.0
+      "title": "hesreallyhim/awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "source": "github",
+      "score": 0.83
     },
     {
-      "title": "WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference",
-      "url": "https://arxiv.org/abs/2603.11132",
+      "title": "Meta-Reinforcement Learning with Self-Reflection for Agentic Search",
+      "url": "https://arxiv.org/abs/2603.11327",
       "source": "arxiv",
-      "score": 1.0
+      "score": 0.8
     },
     {
-      "title": "Mobile-Agent-RAG: Driving Smart Multi-Agent Coordination with Contextual Knowledge Empowerment for Long-Horizon Mobile Automation",
-      "url": "https://arxiv.org/abs/2511.12254",
+      "title": "AGMARL-DKS: An Adaptive Graph-Enhanced Multi-Agent Reinforcement Learning for Dynamic Kubernetes Scheduling",
+      "url": "https://arxiv.org/abs/2603.12031",
       "source": "arxiv",
-      "score": 1.0
+      "score": 0.8
     },
     {
-      "title": "Enhancing Value Alignment of LLMs with Multi-agent system and Combinatorial Fusion",
-      "url": "https://arxiv.org/abs/2603.11126",
+      "title": "Multi-Agent Reinforcement Learning for Greenhouse Gas Offset Credit Markets",
+      "url": "https://arxiv.org/abs/2504.11258",
       "source": "arxiv",
-      "score": 1.0
+      "score": 0.8
     },
     {
-      "title": "Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution",
-      "url": "https://arxiv.org/abs/2603.11445",
+      "title": "Enhancing Sample Efficiency in Multi-Agent RL with Uncertainty Quantification and Selective Exploration",
+      "url": "https://arxiv.org/abs/2506.02841",
       "source": "arxiv",
-      "score": 1.0
+      "score": 0.8
     },
     {
-      "title": "WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference",
-      "url": "https://arxiv.org/abs/2603.11132",
+      "title": "Agentic Design Review System",
+      "url": "https://arxiv.org/abs/2508.10745",
       "source": "arxiv",
-      "score": 1.0
+      "score": 0.8
     }
   ]
 }
