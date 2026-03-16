@@ -1,66 +1,66 @@
 {
-  "generated": "2026-03-15T18:00:48.578266+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-15 18:00 IST*\n\n## Top Signals\n- **[rss]** My fireside chat about agentic engineering at the Pragmatic Summit — score 1.00\n  Keywords: agent, agentic, RAG\n- **[rss]** Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required — score 1.00\n  Keywords: agent, Claude, Anthropic\n- **[rss]** Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty — score 1.00\n  Keywords: sovereign, India AI, open source AI\n- **[github]** anthropics/claude-plugins-official — score 0.83\n  Keywords: Claude, Anthropic\n- **[rss]** Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline — score 0.80\n  Keywords: agent, agentic\n- **[rss]** Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now — score 0.80\n  Keywords: Claude, Anthropic\n- **[github]** langchain-ai/deepagents — score 0.63\n  Keywords: agent, agentic\n- **[github]** dimensionalOS/dimos — score 0.63\n  Keywords: agent, multi-agent, agentic\n- **[github]** FoundationAgents/MetaGPT — score 0.63\n  Keywords: agent, multi-agent\n- **[rss]** Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer — score 0.60\n  Keywords: agent, RAG",
+  "generated": "2026-03-16T18:01:40.163006+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-16 18:01 IST*\n\n## Top Signals\n- **[arxiv]** Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization — score 1.00\n  Keywords: agent, multi-agent, tool use, LLM\n- **[arxiv]** Semantic Invariance in Agentic AI — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM\n- **[arxiv]** Test-Time Strategies for More Efficient and Accurate Agentic RAG — score 1.00\n  Keywords: agent, agentic, RAG\n- **[arxiv]** LLM Constitutional Multi-Agent Governance — score 1.00\n  Keywords: agent, multi-agent, LLM, governance\n- **[arxiv]** AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need — score 1.00\n  Keywords: agent, agentic, knowledge graph, RAG\n- **[arxiv]** COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics — score 1.00\n  Keywords: sovereign, agent, agentic, LLM\n- **[arxiv]** AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need — score 1.00\n  Keywords: agent, agentic, knowledge graph, RAG\n- **[arxiv]** LLM Constitutional Multi-Agent Governance — score 1.00\n  Keywords: agent, multi-agent, LLM, governance\n- **[arxiv]** AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need — score 1.00\n  Keywords: agent, agentic, knowledge graph, RAG\n- **[arxiv]** AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need — score 1.00\n  Keywords: agent, agentic, knowledge graph, RAG",
   "top_signals": [
     {
-      "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
-      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
-      "source": "rss",
+      "title": "Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization",
+      "url": "https://arxiv.org/abs/2603.12933",
+      "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
-      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-      "source": "rss",
+      "title": "Semantic Invariance in Agentic AI",
+      "url": "https://arxiv.org/abs/2603.13173",
+      "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Heading to India AI Impact Summit, Mozilla leaders call for investment in open source AI as a path to sovereignty",
-      "url": "https://blog.mozilla.org/en/mozilla/india-ai-impact-summit/",
-      "source": "rss",
+      "title": "Test-Time Strategies for More Efficient and Accurate Agentic RAG",
+      "url": "https://arxiv.org/abs/2603.12396",
+      "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "anthropics/claude-plugins-official",
-      "url": "https://github.com/anthropics/claude-plugins-official",
-      "source": "github",
-      "score": 0.83
+      "title": "LLM Constitutional Multi-Agent Governance",
+      "url": "https://arxiv.org/abs/2603.13189",
+      "source": "arxiv",
+      "score": 1.0
     },
     {
-      "title": "Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline",
-      "url": "https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval",
-      "source": "rss",
-      "score": 0.8
+      "title": "AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need",
+      "url": "https://arxiv.org/abs/2509.21553",
+      "source": "arxiv",
+      "score": 1.0
     },
     {
-      "title": "Anthropic&#8217;s Claude AI can respond with charts, diagrams, and other visuals now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams",
-      "source": "rss",
-      "score": 0.8
+      "title": "COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics",
+      "url": "https://arxiv.org/abs/2603.11277",
+      "source": "arxiv",
+      "score": 1.0
     },
     {
-      "title": "langchain-ai/deepagents",
-      "url": "https://github.com/langchain-ai/deepagents",
-      "source": "github",
-      "score": 0.63
+      "title": "AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need",
+      "url": "https://arxiv.org/abs/2509.21553",
+      "source": "arxiv",
+      "score": 1.0
     },
     {
-      "title": "dimensionalOS/dimos",
-      "url": "https://github.com/dimensionalOS/dimos",
-      "source": "github",
-      "score": 0.63
+      "title": "LLM Constitutional Multi-Agent Governance",
+      "url": "https://arxiv.org/abs/2603.13189",
+      "source": "arxiv",
+      "score": 1.0
     },
     {
-      "title": "FoundationAgents/MetaGPT",
-      "url": "https://github.com/FoundationAgents/MetaGPT",
-      "source": "github",
-      "score": 0.63
+      "title": "AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need",
+      "url": "https://arxiv.org/abs/2509.21553",
+      "source": "arxiv",
+      "score": 1.0
     },
     {
-      "title": "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer",
-      "url": "https://www.latent.space/p/turbopuffer",
-      "source": "rss",
-      "score": 0.6
+      "title": "AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need",
+      "url": "https://arxiv.org/abs/2509.21553",
+      "source": "arxiv",
+      "score": 1.0
     }
   ]
 }
