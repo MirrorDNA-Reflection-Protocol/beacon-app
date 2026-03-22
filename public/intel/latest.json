@@ -1,64 +1,64 @@
 {
-  "generated": "2026-03-16T18:01:40.163006+05:30",
-  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-16 18:01 IST*\n\n## Top Signals\n- **[arxiv]** Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization — score 1.00\n  Keywords: agent, multi-agent, tool use, LLM\n- **[arxiv]** Semantic Invariance in Agentic AI — score 1.00\n  Keywords: agent, multi-agent, agentic, LLM\n- **[arxiv]** Test-Time Strategies for More Efficient and Accurate Agentic RAG — score 1.00\n  Keywords: agent, agentic, RAG\n- **[arxiv]** LLM Constitutional Multi-Agent Governance — score 1.00\n  Keywords: agent, multi-agent, LLM, governance\n- **[arxiv]** AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need — score 1.00\n  Keywords: agent, agentic, knowledge graph, RAG\n- **[arxiv]** COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics — score 1.00\n  Keywords: sovereign, agent, agentic, LLM\n- **[arxiv]** AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need — score 1.00\n  Keywords: agent, agentic, knowledge graph, RAG\n- **[arxiv]** LLM Constitutional Multi-Agent Governance — score 1.00\n  Keywords: agent, multi-agent, LLM, governance\n- **[arxiv]** AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need — score 1.00\n  Keywords: agent, agentic, knowledge graph, RAG\n- **[arxiv]** AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need — score 1.00\n  Keywords: agent, agentic, knowledge graph, RAG",
+  "generated": "2026-03-21T18:00:55.369840+05:30",
+  "brief": "# MirrorIntelligence Brief\n\n*Generated: 2026-03-21 18:00 IST*\n\n## Top Signals\n- **[arxiv]** Analysis Of Linguistic Stereotypes in Single and Multi-Agent Generative AI Architectures — score 1.00\n  Keywords: agent, multi-agent, LLM, inference\n- **[arxiv]** I Can't Believe It's Corrupt: Evaluating Corruption in Multi-Agent Governance Systems — score 1.00\n  Keywords: agent, multi-agent, governance\n- **[arxiv]** The Provenance Paradox in Multi-Agent LLM Routing: Delegation Contracts and Attested Identity in LDP — score 1.00\n  Keywords: agent, identity, multi-agent, LLM\n- **[arxiv]** A Trace-Based Assurance Framework for Agentic AI Orchestration: Contracts, Testing, and Governance — score 1.00\n  Keywords: agent, agentic, orchestration, LLM, governance\n- **[arxiv]** PlanTwin: Privacy-Preserving Planning Abstractions for Cloud-Assisted LLM Agents — score 1.00\n  Keywords: agent, privacy, agentic, LLM\n- **[arxiv]** Security, privacy, and agentic AI in a regulatory view: From definitions and distinctions to provisions and reflections — score 1.00\n  Keywords: agent, privacy, agentic\n- **[arxiv]** Agentic LLM Framework for Adaptive Decision Discourse — score 1.00\n  Keywords: agent, agentic, LLM\n- **[arxiv]** MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games — score 1.00\n  Keywords: agent, multi-agent, LLM\n- **[arxiv]** MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems — score 1.00\n  Keywords: agent, multi-agent, orchestration, RAG, benchmark\n- **[arxiv]** WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference — score 1.00\n  Keywords: agent, multi-agent, LLM, inference",
   "top_signals": [
     {
-      "title": "Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization",
-      "url": "https://arxiv.org/abs/2603.12933",
+      "title": "Analysis Of Linguistic Stereotypes in Single and Multi-Agent Generative AI Architectures",
+      "url": "https://arxiv.org/abs/2603.18729",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Semantic Invariance in Agentic AI",
-      "url": "https://arxiv.org/abs/2603.13173",
+      "title": "I Can't Believe It's Corrupt: Evaluating Corruption in Multi-Agent Governance Systems",
+      "url": "https://arxiv.org/abs/2603.18894",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "Test-Time Strategies for More Efficient and Accurate Agentic RAG",
-      "url": "https://arxiv.org/abs/2603.12396",
+      "title": "The Provenance Paradox in Multi-Agent LLM Routing: Delegation Contracts and Attested Identity in LDP",
+      "url": "https://arxiv.org/abs/2603.18043",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "LLM Constitutional Multi-Agent Governance",
-      "url": "https://arxiv.org/abs/2603.13189",
+      "title": "A Trace-Based Assurance Framework for Agentic AI Orchestration: Contracts, Testing, and Governance",
+      "url": "https://arxiv.org/abs/2603.18096",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need",
-      "url": "https://arxiv.org/abs/2509.21553",
+      "title": "PlanTwin: Privacy-Preserving Planning Abstractions for Cloud-Assisted LLM Agents",
+      "url": "https://arxiv.org/abs/2603.18377",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics",
-      "url": "https://arxiv.org/abs/2603.11277",
+      "title": "Security, privacy, and agentic AI in a regulatory view: From definitions and distinctions to provisions and reflections",
+      "url": "https://arxiv.org/abs/2603.18914",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need",
-      "url": "https://arxiv.org/abs/2509.21553",
+      "title": "Agentic LLM Framework for Adaptive Decision Discourse",
+      "url": "https://arxiv.org/abs/2502.10978",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "LLM Constitutional Multi-Agent Governance",
-      "url": "https://arxiv.org/abs/2603.13189",
+      "title": "MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games",
+      "url": "https://arxiv.org/abs/2603.09022",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need",
-      "url": "https://arxiv.org/abs/2509.21553",
+      "title": "MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2603.09909",
       "source": "arxiv",
       "score": 1.0
     },
     {
-      "title": "AutoClimDS: Climate Data Science Agentic AI -- A Knowledge Graph is All You Need",
-      "url": "https://arxiv.org/abs/2509.21553",
+      "title": "WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference",
+      "url": "https://arxiv.org/abs/2603.11132",
       "source": "arxiv",
       "score": 1.0
     }
