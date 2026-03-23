@@ -59,7 +59,7 @@ class BeaconHandler(FileSystemEventHandler):
 
     def notify(self, title, message):
         """Send a macOS system notification."""
-        cmd = f'display notification "{message}" with title "{title}"'
+#  notifications disabled — twin manages proactively
         subprocess.run(["osascript", "-e", cmd])
 
 if __name__ == "__main__":
