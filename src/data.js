@@ -5,13 +5,13 @@ export const SHOWCASE = [
   {
     image: '/screenshots/dashboard-tui.png',
     title: 'Cognitive Dashboard',
-    description: 'Real-time TUI monitoring 24 services, drift score, bus health, cognitive weights, and factory status.',
+    description: 'Real-time terminal view of service health, drift, bus status, and operator state.',
     tags: ['TUI', 'Rich', 'Python'],
   },
   {
     image: '/screenshots/factory-swarm.png',
     title: 'Factory Swarm',
-    description: 'Multi-agent swarm — 6 Claude Code agents in parallel across a BenQ ultrawide, orchestrated by DAG scheduler.',
+    description: 'Multi-agent execution lane for build, review, and operator support.',
     tags: ['Multi-Agent', 'Orchestration'],
   },
   {
@@ -23,7 +23,7 @@ export const SHOWCASE = [
   {
     image: '/screenshots/mirrorbrain-pulse.png',
     title: 'MirrorBrain Mobile',
-    description: 'Android companion. Policy enforcement, cortex routing, skill reliability, device mesh — all on-device.',
+    description: 'Mobile companion for routing, policy checks, and device coordination.',
     tags: ['Android', 'Kotlin'], portrait: true,
   },
   {
@@ -41,7 +41,7 @@ export const SHOWCASE = [
   {
     image: '/screenshots/dashboard-enterprise.png',
     title: 'Enterprise Command',
-    description: 'Multi-team dashboard with SLA tracking, governance compliance, role-based views. Enterprise-grade sovereign AI.',
+    description: 'Governed command surface with compliance, approval, and role-aware views.',
     tags: ['Dashboard', 'Enterprise'],
   },
   {
@@ -161,10 +161,10 @@ export const ARTICLES = [
 ];
 
 export const STATS = [
-  { value: '116', label: 'Repos' },
-  { value: '14', label: 'AI Models' },
-  { value: '24', label: 'Services' },
-  { value: '12k', label: 'Lines in OS' },
-  { value: '23', label: 'Guard Rules' },
-  { value: '0', label: 'Cloud Dependencies' },
+  { value: `${ARTICLES.length}+`, label: 'Reflections' },
+  { value: `${SHOWCASE.length}`, label: 'Proof Screens' },
+  { value: 'Human', label: 'Operator' },
+  { value: 'Live', label: 'Public Route' },
+  { value: 'Private', label: 'Control Plane' },
+  { value: 'Receipts', label: 'Proof Style' },
 ];

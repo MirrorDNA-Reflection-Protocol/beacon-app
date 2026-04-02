@@ -309,7 +309,7 @@ function ScanTerminal() {
   const inputRef = useRef(null);
   const quotes = [
     "The model is interchangeable. The bus is identity.",
-    "116 repos, one Mac Mini, zero cloud deps.",
+    "A trust system has to show its work.",
     "There's nothing between a scammer and a grandmother with a smartphone.",
     "Your AI identity should be a portable file — stored in your files, not theirs.",
   ];
@@ -320,10 +320,10 @@ function ScanTerminal() {
   useEffect(() => {
     const t1 = setTimeout(() => {
       setLines([
-        { t: 's', x: '  Chetana AI Shield · 15 scam categories · on-device' },
+        { t: 's', x: '  Chetana guidance surface · suspicious messages, links, payments, media' },
         { t: 'o', x: '' },
         { t: 'o', x: '  Paste any suspicious message below to scan it.' },
-        { t: 'o', x: '  Or try: help | about | reflect | stats' },
+        { t: 'o', x: '  Or try: help | about | reflect | status' },
       ]);
     }, 300);
     return () => clearTimeout(t1);
@@ -334,7 +334,7 @@ function ScanTerminal() {
   const run = async (cmd) => {
     const c = cmd.trim().toLowerCase(); add(`$ ${cmd}`, 'c'); if (!c) return;
     if (c === 'help') add('  help | about | scan <msg> | reflect | stats | clear');
-    else if (c === 'about') add(`  Paul Desai · Goa · ${BUILD_DURATION} sovereign AI · 1 Mac Mini · 0 cloud deps`);
+    else if (c === 'about') add(`  Paul Desai · Active Mirror · ${BUILD_DURATION} build arc · human-run system`);
     else if (c === 'stats') STATS.forEach(s => add(`  ${s.label.padEnd(16)} ${s.value}`));
     else if (c === 'reflect') add(`  "${quotes[Math.floor(Math.random() * quotes.length)]}"`);
     else if (c === 'clear') { setLines([{ t: 's', x: '> cleared' }]); return; }
@@ -643,11 +643,11 @@ export default function App() {
             <h1 style={{ fontSize: 'clamp(42px, 8vw, 80px)', fontWeight: 700, letterSpacing: -2, color: '#fff', lineHeight: 1 }}>Active Mirror</h1>
           </Reveal>
           <Reveal delay={.16}>
-            <p style={{ color: '#888', fontSize: 11, letterSpacing: 6, textTransform: 'uppercase', marginTop: 8 }}>Sovereign AI from Goa</p>
+            <p style={{ color: '#888', fontSize: 11, letterSpacing: 6, textTransform: 'uppercase', marginTop: 8 }}>Public field notes</p>
           </Reveal>
           <Reveal delay={.24}>
             <p style={{ marginTop: 36, color: '#aaa', fontSize: 15, maxWidth: 400, lineHeight: 1.9, margin: '36px auto 0' }}>
-              One person. One Mac Mini. {durationText}.<br />An AI operating system that answers to nobody.
+              Public notes, live demos, and trust surfaces from a human-run AI system.<br />Chetana checks suspicious messages. Mirror Seed carries identity. The control plane stays behind the route.
             </p>
           </Reveal>
           <Reveal delay={.32}>
@@ -724,7 +724,7 @@ export default function App() {
             <Reveal delay={.05}>
               <h2 style={{ fontSize: 28, fontWeight: 300, color: '#ccc', marginBottom: 8 }}>Chetana — AI scam scanner.</h2>
               <p style={{ fontSize: 13, color: '#888', marginBottom: 32, lineHeight: 1.7 }}>
-                Paste any suspicious message. 15 scam categories. On-device analysis. Try it live.
+                Paste any suspicious message, link, payment request, or media reference. Local checks where possible; secure server help when needed.
               </p>
             </Reveal>
             <Reveal delay={.1}>
@@ -741,7 +741,7 @@ export default function App() {
             </Reveal>
             <Reveal delay={.05}>
               <h2 style={{ fontSize: 28, fontWeight: 300, color: '#ccc', marginBottom: 12 }}>Reflections from the frontier.</h2>
-              <p style={{ fontSize: 11, color: '#777', marginBottom: 40 }}>PGP-signed · IPFS-pinned · Published daily</p>
+              <p style={{ fontSize: 11, color: '#777', marginBottom: 40 }}>Build notes · proof trails · public explanations</p>
             </Reveal>
             <div style={{ borderLeft: '1px solid #1a1a1a', paddingLeft: 24, marginLeft: 3 }}>
               {ARTICLES.map((a, i) => (
@@ -793,14 +793,14 @@ export default function App() {
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: 10 }}>
                   {[
-                    { n: 'Chetana', on: true, d: 'AI Shield' },
-                    { n: 'Beacon', on: true, d: 'This page' },
-                    { n: 'Memory Bus', on: false, d: 'LAN only' },
-                    { n: 'Factory', on: false, d: 'LAN only' },
-                    { n: 'Dashboard', on: false, d: '24 panels' },
-                    { n: 'Ollama', on: false, d: '17 models' },
-                    { n: 'MirrorBrain', on: false, d: 'Android' },
-                    { n: 'GlyphTrail', on: false, d: 'Audit log' },
+                    { n: 'Chetana', on: true, d: 'Scam checks' },
+                    { n: 'Beacon', on: true, d: 'Field notes' },
+                    { n: 'Mirror Seed', on: true, d: 'Identity file' },
+                    { n: 'Proof layer', on: true, d: 'Public receipts' },
+                    { n: 'Control plane', on: false, d: 'Private route' },
+                    { n: 'Model lane', on: false, d: 'Policy-gated' },
+                    { n: 'Operator tools', on: false, d: 'Private route' },
+                    { n: 'Device mesh', on: false, d: 'Private route' },
                   ].map(s => (
                     <div key={s.n} style={{ background: '#0d0d0d', border: '1px solid #121212', borderRadius: 10, padding: 12 }}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 4 }}>
@@ -812,8 +812,8 @@ export default function App() {
                   ))}
                 </div>
                 <div style={{ marginTop: 20, paddingTop: 14, borderTop: '1px solid #121212', fontSize: 10, color: '#777', display: 'flex', justifyContent: 'space-between' }}>
-                  <span>Goa, India · Mac Mini M4 24GB</span>
-                  <span>Zero cloud dependencies</span>
+                  <span>Human-run · public proof surface</span>
+                  <span>Private control plane behind the route</span>
                 </div>
               </div>
             </Reveal>
@@ -829,7 +829,7 @@ export default function App() {
             <Reveal delay={.05}>
               <h2 style={{ fontSize: 28, fontWeight: 300, color: '#ccc', marginBottom: 8 }}>Sovereign soul layers.</h2>
               <p style={{ fontSize: 13, color: '#888', marginBottom: 40, lineHeight: 1.7 }}>
-                Three generative visual systems that breathe with your data. On-device. Evolving nightly. Never predictive — always reflective.
+                Experimental visual systems for memory, attention, and internal state. Public sketches, not product claims.
               </p>
             </Reveal>
 
@@ -860,7 +860,7 @@ export default function App() {
                   <div style={{ padding: 20 }}>
                     <h3 style={{ fontSize: 15, fontWeight: 600, color: '#a78bfa', marginBottom: 6 }}>EchoVeil</h3>
                     <p style={{ fontSize: 12, color: '#888', lineHeight: 1.6 }}>
-                      Memory aura. A translucent veil woven from drift curves, journal echoes, and emotional rhythms. Goa-monsoon palettes. Reflective, never predictive.
+                      Memory aura. A translucent veil woven from drift curves, journal echoes, and emotional rhythms. Night-shift palettes. Reflective, never predictive.
                     </p>
                     <div style={{ marginTop: 12, fontSize: 10, color: '#555', letterSpacing: 2, textTransform: 'uppercase' }}>Coming to MirrorBrain</div>
                   </div>
@@ -928,7 +928,7 @@ export default function App() {
             ))}
           </div>
           <p style={{ fontSize: 10, color: '#666', marginTop: 20 }}>
-            Built by Paul Desai · Goa · All data on-device · PGP-signed · IPFS-pinned
+            Built by Paul Desai · public field notes · proof over posture
           </p>
         </footer>
       </div>

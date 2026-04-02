@@ -19,17 +19,17 @@ const HELP_TEXT = `Available commands:
   about       System info
   clear       Clear terminal`;
 
-const ABOUT_TEXT = `Active Mirror -- Sovereign AI Infrastructure
-Built by Paul Desai in Goa, India
+const ABOUT_TEXT = `Active Mirror -- Live AI Field Notes
+Built by Paul Desai
 
-  Repos:          ${SYSTEM_STATS.repos}
-  Models:         ${SYSTEM_STATS.models}
+  Public route:   Beacon
+  Consumer route: Chetana
+  Identity route: Mirror Seed
   Shipped:        ${SYSTEM_STATS.shipped_modules}+ modules
-  Control Plane:  ${SYSTEM_STATS.control_plane_lines.toLocaleString()} lines
-  Services:       ${SYSTEM_STATS.services}
-  Guard Rules:    ${SYSTEM_STATS.guard_rules}
+  Control Plane:  governed
+  Proof style:    receipts over slogans
 
-All code is sovereign. All data stays on-device.`;
+Public surfaces stay visible. Private routes stay governed.`;
 
 function formatShipped() {
   return SHIPPED_ITEMS.slice(0, 10).map(item => {
@@ -243,19 +243,9 @@ export default function Terminal() {
           }
         } catch (e) {
           typeOutput(`\n  Model registry not accessible from public network.
-  Running locally: 17 models via Ollama
+  Local model lane is private and policy-gated.
 
-  Known models:
-    llama3.2:3b
-    llama3.1:8b
-    qwen2.5-coder:7b
-    deepseek-r1:7b
-    mistral:7b
-    gemma2:9b
-    nomic-embed-text
-    phi3:mini
-    codellama:7b
-    ... and more`);
+  Beacon does not expose a live model count on the public route.`);
         }
         break;
       }

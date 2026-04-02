@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="text-center text-[10px] text-[var(--color-text-muted)] mt-6">
-        Built by Paul Desai in Goa, India. All data stays on-device.
+        Built by Paul Desai. Public field notes for Active Mirror.
       </p>
     </footer>
   );

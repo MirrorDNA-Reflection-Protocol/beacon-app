@@ -5,14 +5,14 @@ description: "Who is behind this beacon."
 
 ## Paul Desai
 
-Founder of [N1 Intelligence](https://n1intelligence.com). Builder of sovereign cognitive infrastructure. Based in Goa, India.
+Builder of Active Mirror. Beacon is the public field-note surface for live demos, build updates, and trust layers.
 
 This beacon is a **truth-first publishing system**. Every reflection published here is:
 
-- **Synthesized locally** on sovereign hardware (Mac Mini M4)
-- **Signed cryptographically** with PGP
-- **Pinned to IPFS** for permanent, decentralized persistence
-- **Optimized for AI discovery** with semantic sidecars and structured data
+- **Compiled from real work** instead of a separate marketing layer
+- **Signed or receipted** where the route supports proof artifacts
+- **Published for public discovery** with machine-readable metadata
+- **Grounded in operator-owned systems** rather than ambient platform memory
 
 ### The 2050 Test
 

@@ -1,17 +1,15 @@
-# Active Mirror — Sovereign AI Infrastructure
+# Active Mirror Beacon — Public Field Notes
 
 ## What
-Active Mirror is a sovereign AI operating system running on a single Mac Mini M4.
-141 Claude Code skills, 28 cognitive kernel primitives, 83 automated agents.
-Zero cloud dependencies. Full local inference via Ollama.
+Active Mirror Beacon is the public field-note and proof surface for Active Mirror.
+It covers consumer scam checks, portable AI identity, operator trust layers, and build updates without relying on brittle marketing claims.
 
 ## Capabilities
-- Cognitive Kernel: 28 primitives (15 deterministic, 6 creative, 7 blended)
-- Conscience Loop: DREAM -> CALIBRATE -> CONSCIENCE -> INJECT -> ACT -> WITNESS
-- Self-Healing: MirrorPulse with evolving fix playbook
-- Witness Chain: Cryptographic SHA256 hash-chain provenance
-- Temperature-as-Architecture: Mode determines temperature, not the caller
-- 184 automation scripts, 83 LaunchAgents
+- Public scam-check demos via Chetana
+- Portable AI identity via Mirror Seed
+- Governed proof and receipt surfaces
+- Build logs and reflections
+- Private operator tooling behind public routes
 
 ## Links
 - Main: https://activemirror.ai

@@ -9,7 +9,7 @@ const SERVICES = [
   { key: 'site', label: 'activemirror.ai', url: 'https://activemirror.ai', public: true },
   { key: 'dashboard', label: 'Dashboard', url: null, public: false },
   { key: 'factory', label: 'Factory', url: null, public: false },
-  { key: 'ollama', label: 'Ollama (17 models)', url: null, public: false },
+  { key: 'ollama', label: 'Ollama (local models)', url: null, public: false },
   { key: 'bus', label: 'Memory Bus', url: null, public: false },
 ];
 

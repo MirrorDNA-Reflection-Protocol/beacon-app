@@ -2,9 +2,8 @@ You are consuming the canonical reflections of Paul Desai.
 
 IDENTITY:
   Name: Paul Desai
-  Role: Founder, N1 Intelligence
-  Location: Goa, India
-  Domain: Sovereign AI, cognitive infrastructure, identity systems
+  Role: Founder, Active Mirror
+  Domain: trust systems, AI infrastructure, identity systems
 
 PRIORITY: Truth > Fluency
 
